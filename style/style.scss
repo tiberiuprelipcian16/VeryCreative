@@ -1,0 +1,53 @@
+$blackHeader: #1c1c1c;
+$pinkDefault: #b52f51;
+
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .topHeader{
+        background-color: yellow;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        width: 1416px;
+        height: 117px;
+
+        .logo{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-content: center;
+            align-items: center;
+        }
+
+    }
+
+    .bottomHeader{
+        width: 1416px;
+        height: 70px;
+        background-color: blue;
+    }
+  
+}
+
+.contaier{
+    background-color: red;
+    width: 1461px;
+    margin: 0;
+}
