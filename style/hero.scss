@@ -1,0 +1,287 @@
+@import "colors.scss";
+
+.container{
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #fefefe;
+
+    .hero{
+        width: 1416px;
+        height: 1130px;
+        background-color: #fefefe;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .topHero{
+
+            .topHeroContent{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                flex-direction: row;
+                margin: 39px 0 0 82px;
+
+                .carousel{
+                    position: relative;
+                    height: 453px;
+                    width: 1295px;
+                    background-image: url(../../assets/hero.png);
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    align-content: center;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+
+                    .s1, .s2, .s3, .point, img{
+                        z-index: 2;
+                        position: relative;
+                    }
+
+                    .s1{
+                        width: 291px;
+                        height: 231px;
+                        margin: 0 0 0 86px;
+                        display: flex;
+                        flex-direction: column;
+                        align-content: center;
+                        align-items: flex-start;
+                        gap: 94px;
+
+                        p{
+                            font-size: 35px;
+                            width: 290px;
+                            height: 70px;
+                            color: white;
+                        }
+
+                        button{
+                            width: 231px;
+                            height: 60px;
+                            background-color: $pinkDefault;
+                            border: none;
+                            border-radius: 5px;
+                            color: white;
+                            font-size: 16px;
+                        }
+                    }
+
+                    .s2{
+                        width: 324px;
+                        height: 294px;
+                        display: flex;
+                        flex-direction: column;
+                        align-content: center;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        img{
+                            width: 324px;
+                            height: 224px;
+                        }
+
+                        .circle{
+                            z-index: 3;
+                            width: 125px;
+                            height: 125px;
+                            background-color: $pinkDefault;
+                            border-radius: 50%;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            margin: 0 0 -55px 58px;
+                            align-self: flex-start;
+                            justify-content: center;
+                            align-content: center;
+
+                            p{
+                                color: white;
+                            }
+                            
+                            .first{
+                                font-size: 12px;
+                            }
+
+                            .second{
+                                font-size: 20px;
+                            }
+                        }
+                    }
+
+                    .s3{
+                        width: 341px;
+                        height: 372px;
+                        display: flex;
+                        flex-direction: column;
+                        align-content: center;
+                        align-items: center;
+
+                    }
+
+                    .point{
+                        align-self: flex-end;
+                        position: relative;
+                        z-index: 3;
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        align-items: center;
+                        align-content: center;
+                        justify-content: space-between;
+                        gap: 9px;
+                        margin: -10px 640px;
+                        width: 63px;
+                        height: 15px;
+
+                        span{
+                            width: 15px;
+                            height: 11px;
+                            background-color: black;
+                            border: white 2px solid;
+                            border-radius: 50%;
+                        }
+
+                        .white{
+                            background-color: white;
+                        }
+                    }
+
+                    .logoCarousel{
+                        align-self: flex-end;
+                        margin: 0 22px -20px 48px;
+                    }
+                }
+
+                .carousel::before{
+                    content: "";
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    background-color: #1f1852;
+                    opacity: 0.5;
+                    z-index: 1;
+                }
+
+                .social{
+                    margin: 0 32px 0 10px;
+                    width: 25px;
+                    height: 392px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+                    align-content: center;
+
+                    
+
+                    .insta, .facebook, .twitter{
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        font-size: 15px;
+                        align-items: center;
+                        justify-content: space-evenly;
+                        cursor: pointer;
+
+                        img{
+                            width: 17px;
+                            height: 15px;
+                        }
+
+                        p{
+                            color: black;
+                            transform: rotate(-90deg);
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .middleHero{
+            .middleHeroContent{
+                border-radius: 5px;
+                border: 2px solid #f2f2f2;
+                width: 1297px;
+                height: 73px;
+                display: flex;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+                margin: 35px 82px 0 82px;
+
+                p{
+                    font-size: 16px;
+                    margin-left: 268px;
+
+                    a{
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+                img{
+                    margin-left: 233px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .bottomHero{
+            .bottomHeroContent{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                align-content: center;
+                margin: 47px  82px 0 82px;
+
+                p{
+                    font-size: 24px;
+                }
+
+                .box{
+                    margin: 42px 0 74px 0;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    align-content: center;
+                    justify-content: space-between;
+                   
+                    gap: 21px;
+
+                    .item{
+                        width: 242px;
+                        height: 296px;
+                        background-image: url("../../assets/item.png");
+                        display: flex;
+                        flex-direction: row;
+                        align-items: flex-end;
+                        //align-content: ;
+                        justify-content: center;
+                        border-radius: 8px;
+
+                        p{
+                            margin: 0 0 36px 0;
+                            color: white;
+                            text-align: center;
+                            font-size: 18px;
+                            max-width: 172px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+}

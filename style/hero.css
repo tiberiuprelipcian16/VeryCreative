@@ -1,0 +1,239 @@
+.container {
+  font-family: "Quicksand", sans-serif !important;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #fefefe;
+}
+.container .hero {
+  width: 1416px;
+  height: 1130px;
+  background-color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .hero .topHero .topHeroContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  margin: 39px 0 0 82px;
+}
+.container .hero .topHero .topHeroContent .carousel {
+  position: relative;
+  height: 453px;
+  width: 1295px;
+  background-image: url(../../assets/hero.png);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container .hero .topHero .topHeroContent .carousel .s1, .container .hero .topHero .topHeroContent .carousel .s2, .container .hero .topHero .topHeroContent .carousel .s3, .container .hero .topHero .topHeroContent .carousel .point, .container .hero .topHero .topHeroContent .carousel img {
+  z-index: 2;
+  position: relative;
+}
+.container .hero .topHero .topHeroContent .carousel .s1 {
+  width: 291px;
+  height: 231px;
+  margin: 0 0 0 86px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: flex-start;
+  gap: 94px;
+}
+.container .hero .topHero .topHeroContent .carousel .s1 p {
+  font-size: 35px;
+  width: 290px;
+  height: 70px;
+  color: white;
+}
+.container .hero .topHero .topHeroContent .carousel .s1 button {
+  width: 231px;
+  height: 60px;
+  background-color: #b52f51;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+}
+.container .hero .topHero .topHeroContent .carousel .s2 {
+  width: 324px;
+  height: 294px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .hero .topHero .topHeroContent .carousel .s2 img {
+  width: 324px;
+  height: 224px;
+}
+.container .hero .topHero .topHeroContent .carousel .s2 .circle {
+  z-index: 3;
+  width: 125px;
+  height: 125px;
+  background-color: #b52f51;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 -55px 58px;
+  align-self: flex-start;
+  justify-content: center;
+  align-content: center;
+}
+.container .hero .topHero .topHeroContent .carousel .s2 .circle p {
+  color: white;
+}
+.container .hero .topHero .topHeroContent .carousel .s2 .circle .first {
+  font-size: 12px;
+}
+.container .hero .topHero .topHeroContent .carousel .s2 .circle .second {
+  font-size: 20px;
+}
+.container .hero .topHero .topHeroContent .carousel .s3 {
+  width: 341px;
+  height: 372px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.container .hero .topHero .topHeroContent .carousel .point {
+  align-self: flex-end;
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  gap: 9px;
+  margin: -10px 640px;
+  width: 63px;
+  height: 15px;
+}
+.container .hero .topHero .topHeroContent .carousel .point span {
+  width: 15px;
+  height: 11px;
+  background-color: black;
+  border: white 2px solid;
+  border-radius: 50%;
+}
+.container .hero .topHero .topHeroContent .carousel .point .white {
+  background-color: white;
+}
+.container .hero .topHero .topHeroContent .carousel .logoCarousel {
+  align-self: flex-end;
+  margin: 0 22px -20px 48px;
+}
+.container .hero .topHero .topHeroContent .carousel::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #1f1852;
+  opacity: 0.5;
+  z-index: 1;
+}
+.container .hero .topHero .topHeroContent .social {
+  margin: 0 32px 0 10px;
+  width: 25px;
+  height: 392px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+.container .hero .topHero .topHeroContent .social .insta, .container .hero .topHero .topHeroContent .social .facebook, .container .hero .topHero .topHeroContent .social .twitter {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+.container .hero .topHero .topHeroContent .social .insta img, .container .hero .topHero .topHeroContent .social .facebook img, .container .hero .topHero .topHeroContent .social .twitter img {
+  width: 17px;
+  height: 15px;
+}
+.container .hero .topHero .topHeroContent .social .insta p, .container .hero .topHero .topHeroContent .social .facebook p, .container .hero .topHero .topHeroContent .social .twitter p {
+  color: black;
+  transform: rotate(-90deg);
+}
+.container .hero .middleHero .middleHeroContent {
+  border-radius: 5px;
+  border: 2px solid #f2f2f2;
+  width: 1297px;
+  height: 73px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 35px 82px 0 82px;
+}
+.container .hero .middleHero .middleHeroContent p {
+  font-size: 16px;
+  margin-left: 268px;
+}
+.container .hero .middleHero .middleHeroContent p a {
+  color: white;
+  text-decoration: none;
+}
+.container .hero .middleHero .middleHeroContent img {
+  margin-left: 233px;
+  cursor: pointer;
+}
+.container .hero .bottomHero .bottomHeroContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: center;
+  margin: 47px 82px 0 82px;
+}
+.container .hero .bottomHero .bottomHeroContent p {
+  font-size: 24px;
+}
+.container .hero .bottomHero .bottomHeroContent .box {
+  margin: 42px 0 74px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  gap: 21px;
+}
+.container .hero .bottomHero .bottomHeroContent .box .item {
+  width: 242px;
+  height: 296px;
+  background-image: url("../../assets/item.png");
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 8px;
+}
+.container .hero .bottomHero .bottomHeroContent .box .item p {
+  margin: 0 0 36px 0;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  max-width: 172px;
+}/*# sourceMappingURL=hero.css.map */
