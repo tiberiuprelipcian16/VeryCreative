@@ -21,25 +21,28 @@
 
         .topHero{
 
+
+
             .topHeroContent{
                 display: flex;
-                justify-content: center;
+                flex-direction: row;
+                width: 1461px;
+                height: 453px;
                 align-items: center;
                 align-content: center;
-                flex-direction: row;
-                margin: 39px 0 0 82px;
 
                 .carousel{
                     position: relative;
-                    height: 453px;
+                    height: 100%;
                     width: 1295px;
-                    background-image: url(../../assets/hero.png);
+                    background-image: url(../../assets/before.png);
                     display: flex;
                     flex-direction: row;
                     align-items: center;
                     align-content: center;
                     justify-content: space-between;
                     flex-wrap: wrap;
+                    margin-left: 82px;
 
                     .s1, .s2, .s3, .point, img{
                         z-index: 2;
@@ -158,6 +161,7 @@
                         align-self: flex-end;
                         margin: 0 22px -20px 48px;
                     }
+                    
                 }
 
                 .carousel::before{
@@ -167,44 +171,44 @@
                     position: absolute;
                     left: 0;
                     top: 0;
-                    background-color: #1f1852;
-                    opacity: 0.5;
+                    background-image: url("../../assets/hero.png");
+                    border-radius: 8px;
+                    opacity: 0.3;
                     z-index: 1;
                 }
 
                 .social{
-                    margin: 0 32px 0 10px;
-                    width: 25px;
-                    height: 392px;
+                    transform: rotate(-90deg);
+                    width: 392px;
+                    height: 25px;
                     display: flex;
-                    flex-direction: column;
-                    justify-content: space-around;
+                    flex-direction: row;
+                    justify-content: space-between;
                     align-items: center;
                     align-content: center;
-
-                    
-
+                    margin: -125px;
+                    gap: 15px;
+        
                     .insta, .facebook, .twitter{
-                        width: 100%;
-                        height: 100%;
+                        flex-direction: row;
                         display: flex;
-                        flex-direction: column;
                         font-size: 15px;
                         align-items: center;
-                        justify-content: space-evenly;
                         cursor: pointer;
-
-                        img{
-                            width: 17px;
-                            height: 15px;
-                        }
-
+                        gap: 13px;
+        
                         p{
                             color: black;
-                            transform: rotate(-90deg);
                         }
                     }
-
+        
+                    span{
+                        width: 7px;
+                        height: 7px;
+                        background-color: #1c1c1c;
+                        border-radius: 50%;
+                    }
+        
                 }
             }
         }

@@ -1,0 +1,145 @@
+footer {
+  font-family: "Quicksand", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .topFooter {
+  margin: 80px 0 0 0;
+  width: 1297px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+footer .topFooter .contact {
+  margin: 0 73px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 106px;
+}
+footer .topFooter .contact div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 24px;
+}
+footer .topFooter .contact div .text {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+footer .topFooter .contact div .text p {
+  font-size: 16px;
+  font-weight: bold;
+}
+footer .topFooter .contact div .text a {
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+}
+footer .middleFooter {
+  padding: 46px 0;
+  border-top: 2px solid rgba(15, 15, 15, 0.062745098);
+  border-bottom: 2px solid rgba(15, 15, 15, 0.062745098);
+  margin: 42px 0 40px 0;
+  width: 1297px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+footer .middleFooter div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 16px;
+}
+footer .middleFooter div a {
+  align-self: flex-start;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  opacity: 0.8;
+  margin: 0;
+  font-weight: 600;
+}
+footer .middleFooter div .title {
+  font-size: 20px;
+  margin-bottom: 21px;
+  opacity: 1;
+  font-weight: bold;
+}
+footer .middleFooter .contactFooter .title {
+  font-size: 20px;
+  margin-bottom: 21px;
+  opacity: 1;
+  font-weight: bold;
+}
+footer .middleFooter .contactFooter .contactFooterContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+footer .middleFooter .contactFooter .contactFooterContent .clock, footer .middleFooter .contactFooter .contactFooterContent .mail, footer .middleFooter .contactFooter .contactFooterContent .address {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+}
+footer .middleFooter .contactFooter .contactFooterContent .clock p, footer .middleFooter .contactFooter .contactFooterContent .mail p, footer .middleFooter .contactFooter .contactFooterContent .address p {
+  max-width: 266px;
+  font-size: 16px;
+  opacity: 0.8;
+  font-weight: 600;
+}
+footer .middleFooter .contactFooter .contactFooterContent .clock div, footer .middleFooter .contactFooter .contactFooterContent .mail div, footer .middleFooter .contactFooter .contactFooterContent .address div {
+  gap: 10px;
+}
+footer .footerFooter {
+  margin: 0 0 66px 0;
+  width: 1297px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+footer .footerFooter p {
+  font-size: 16px;
+  font-weight: 600;
+}
+footer .footerFooter .social {
+  width: 392px;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+footer .footerFooter .social .insta, footer .footerFooter .social .facebook, footer .footerFooter .social .twitter {
+  flex-direction: row;
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+  cursor: pointer;
+  gap: 13px;
+}
+footer .footerFooter .social .insta p, footer .footerFooter .social .facebook p, footer .footerFooter .social .twitter p {
+  color: black;
+}
+footer .footerFooter .social span {
+  width: 7px;
+  height: 7px;
+  background-color: #1c1c1c;
+  border-radius: 50%;
+}/*# sourceMappingURL=footer.css.map */

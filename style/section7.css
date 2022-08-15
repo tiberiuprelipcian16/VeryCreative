@@ -1,4 +1,12 @@
-.section7 .boxImg .boxImgContent {
+.section7 {
+  margin: 76px 0 77px 0;
+  padding-bottom: 98px;
+  background-image: linear-gradient(to top, #fafafa, white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section7 .boxImg .boxImgContent4 {
   width: 1297px;
   height: 383px;
   background-image: linear-gradient(to left, #0085c6, #038dd0, #007CC1);
@@ -9,23 +17,120 @@
   justify-content: flex-start;
   border-radius: 8px;
 }
-.section7 .boxImg .boxImgContent .text {
+.section7 .boxImg .boxImgContent4 .text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   align-content: center;
 }
-.section7 .boxImg .boxImgContent .text p {
-  max-width: 447px;
+.section7 .boxImg .boxImgContent4 .text p {
+  width: 447px;
   font-size: 16px;
   color: white;
 }
-.section7 .boxImg .boxImgContent .text p:first-child {
+.section7 .boxImg .boxImgContent4 .text p:first-child {
   font-size: 30px;
   margin-bottom: 23px;
 }
-.section7 .boxImg .boxImgContent .text form {
-  background-color: transparent;
+.section7 .boxImg .boxImgContent4 .text form {
+  margin-top: 38px;
+  width: 546px;
+  border-radius: 5px;
+  height: 81px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  align-content: center;
+}
+.section7 .boxImg .boxImgContent4 .text form .input {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  align-content: center;
+}
+.section7 .boxImg .boxImgContent4 .text form .input img {
+  margin-left: 23px;
+}
+.section7 .boxImg .boxImgContent4 .text form .input input {
+  border: none;
+  font-size: 16px;
+  outline: none;
+  margin-left: 15px;
+}
+.section7 .boxImg .boxImgContent4 .text form button {
+  border-radius: 5px;
+  width: 173px;
+  height: 60px;
+  margin-right: 16px;
+  font-size: 16px;
   color: white;
+  border: none;
+  background-color: #b52f51;
+}
+.section7 .deals {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1297px;
+  align-content: center;
+}
+.section7 .deals .deal {
+  display: flex;
+  flex-direction: column;
+  width: 305px;
+  height: 199px;
+  align-items: center;
+  align-content: center;
+  background-color: white;
+  border-radius: 8px;
+}
+.section7 .deals .deal p {
+  color: #343434;
+  font-size: 16px;
+  text-align: center;
+  max-width: 216px;
+  max-height: 47px;
+}
+.section7 .deals .deal .titleDeal {
+  font-size: 18px;
+  color: #1d1d1d;
+  margin: 22px 0 12px 0;
+}
+
+.socialMedia {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 23px;
+}
+.socialMedia p {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+.socialMedia .username {
+  font-size: 30px;
+}
+
+.images {
+  background-color: white;
+  margin-top: 44px;
+  display: flex;
+  flex-direction: row;
+  width: 1461px;
+}
+.images img {
+  margin: 0;
+  border: 0;
+  width: 210px;
+  height: 210px;
 }/*# sourceMappingURL=section7.css.map */

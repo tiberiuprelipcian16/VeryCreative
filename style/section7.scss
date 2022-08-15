@@ -1,7 +1,15 @@
+@import "colors.scss";
 
 .section7{
+    margin: 76px 0 77px 0;
+    padding-bottom: 98px;
+    background-image: linear-gradient(to top, #fafafa, white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     .boxImg{
-        .boxImgContent{
+        .boxImgContent4{
             width: 1297px;
             height: 383px;
             background-image: linear-gradient(to left, #0085c6, #038dd0, #007CC1);
@@ -20,7 +28,7 @@
                 align-content: center;
 
                 p{
-                    max-width: 447px;
+                    width: 447px;
                     font-size: 16px;
                     color: white;
                 }
@@ -30,13 +38,126 @@
                     margin-bottom: 23px;
                 }
 
-                form{
-                    background-color: transparent;
-                    color: white;
-                }
+                
+                    form{
+                        margin-top: 38px;
+                        width: 546px;
+                        border-radius: 5px;
+                        height: 81px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        background-color: white;
+                        align-content: center;
+                        
+                        .input{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: flex-start;
+                            align-items: center;
+                            background-color: white;
+                            align-content: center;
+
+                            img{
+                                margin-left: 23px;
+                            }
+
+                            input{
+                                border: none;
+                                font-size: 16px;
+                                outline: none;
+                                margin-left: 15px;
+                            }
+
+                        }
+
+                        button{
+                            border-radius: 5px;
+                            width: 173px;
+                            height: 60px;
+                            margin-right: 16px;
+                            font-size: 16px;
+                            color: white;
+                            border: none;
+                            background-color: $pinkDefault;
+                        }
+                    }
+                
 
             }
         }
 
+    }
+
+    .deals{
+        display: flex;
+        flex-direction: row;
+        //gap: 24px;
+        justify-content: space-between;
+        align-items: center;
+        width: 1297px;
+        align-content: center;
+
+        .deal{
+            display: flex;
+            flex-direction: column;
+            width: 305px;
+            height: 199px;
+            align-items: center;
+            align-content: center;
+            background-color: white;
+            border-radius: 8px;
+
+            p{
+                color: #343434;
+                font-size: 16px;
+                text-align: center;
+                max-width: 216px;
+                max-height: 47px;
+            }
+
+            .titleDeal{
+                font-size: 18px;
+                color: #1d1d1d;
+                margin: 22px 0 12px 0;
+            }
+        }
+    }
+
+}
+
+
+.socialMedia{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+
+    p{
+        font-size: 16px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+    }
+
+    .username{
+        font-size: 30px;
+    }
+}
+
+.images{
+    background-color: white;
+    margin-top: 44px;
+    display: flex;
+    flex-direction: row;
+    width: 1461px;
+    img{
+        margin: 0;
+        border: 0;
+        width: 210px;
+        height: 210px;
     }
 }

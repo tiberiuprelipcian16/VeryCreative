@@ -17,7 +17,7 @@ header {
   align-items: center;
 }
 header .topHeader {
-  width: 1416px;
+  width: 1461px;
   height: 117px;
   background-color: #1c1c1c;
   display: flex;
@@ -186,7 +186,7 @@ header .topHeader .contentTopHeader .client .shop img:last-child {
 }
 header .lineHeader {
   background-color: #1c1c1c;
-  width: 1416px;
+  width: 1461px;
 }
 header .lineHeader .line {
   margin: 1px 84px 0 82px;
@@ -195,7 +195,7 @@ header .lineHeader .line {
   background-color: #333;
 }
 header .bottomHeader {
-  width: 1416px;
+  width: 1461px;
   height: 70px;
   background-color: #1c1c1c;
   display: flex;
