@@ -134,3 +134,42 @@
   width: 210px;
   height: 210px;
 }
+
+@media (max-width: 1400px) {
+  .section7 {
+    margin: 66px 0 67px 0;
+    padding-bottom: 88px;
+  }
+  .section7 .boxImg .boxImgContent4 {
+    width: 1080px;
+  }
+  .section7 .boxImg .boxImgContent4 .text form {
+    width: 400px;
+    height: 60px;
+  }
+  .section7 .boxImg .boxImgContent4 .text form .input img {
+    margin-left: 20px;
+  }
+  .section7 .boxImg .boxImgContent4 .text form button {
+    width: 150px;
+    height: 45px;
+    font-size: 14px;
+  }
+  .section7 .deals {
+    width: 1080px;
+  }
+  .section7 .deals .deal {
+    width: 270px;
+    height: 180px;
+  }
+
+  .images {
+    width: 1200px;
+  }
+  .images img {
+    margin: 0;
+    border: 0;
+    width: 171px;
+    height: 171px;
+  }
+}

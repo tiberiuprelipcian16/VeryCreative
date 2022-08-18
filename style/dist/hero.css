@@ -38,7 +38,11 @@
   flex-wrap: wrap;
   margin-left: 82px;
 }
-.container .hero .topHero .topHeroContent .carousel .s1, .container .hero .topHero .topHeroContent .carousel .s2, .container .hero .topHero .topHeroContent .carousel .s3, .container .hero .topHero .topHeroContent .carousel .point, .container .hero .topHero .topHeroContent .carousel img {
+.container .hero .topHero .topHeroContent .carousel .s1,
+.container .hero .topHero .topHeroContent .carousel .s2,
+.container .hero .topHero .topHeroContent .carousel .s3,
+.container .hero .topHero .topHeroContent .carousel .point,
+.container .hero .topHero .topHeroContent .carousel img {
   z-index: 2;
   position: relative;
 }
@@ -164,7 +168,9 @@
   margin: -125px;
   gap: 15px;
 }
-.container .hero .topHero .topHeroContent .social .insta, .container .hero .topHero .topHeroContent .social .facebook, .container .hero .topHero .topHeroContent .social .twitter {
+.container .hero .topHero .topHeroContent .social .insta,
+.container .hero .topHero .topHeroContent .social .facebook,
+.container .hero .topHero .topHeroContent .social .twitter {
   flex-direction: row;
   display: flex;
   font-size: 15px;
@@ -172,7 +178,9 @@
   cursor: pointer;
   gap: 13px;
 }
-.container .hero .topHero .topHeroContent .social .insta p, .container .hero .topHero .topHeroContent .social .facebook p, .container .hero .topHero .topHeroContent .social .twitter p {
+.container .hero .topHero .topHeroContent .social .insta p,
+.container .hero .topHero .topHeroContent .social .facebook p,
+.container .hero .topHero .topHeroContent .social .twitter p {
   color: black;
 }
 .container .hero .topHero .topHeroContent .social span {
@@ -197,7 +205,7 @@
   margin-left: 268px;
 }
 .container .hero .middleHero .middleHeroContent p a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 .container .hero .middleHero .middleHeroContent img {
@@ -239,4 +247,200 @@
   text-align: center;
   font-size: 18px;
   max-width: 172px;
+}
+@media (max-width: 1400px) {
+  .container .hero {
+    width: 1200px;
+    height: 1130px;
+    background-color: #fefefe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .hero .topHero .topHeroContent {
+    width: 1200px;
+    height: 453px;
+  }
+  .container .hero .topHero .topHeroContent .carousel {
+    margin-left: 62px;
+    border-radius: 8px !important;
+    width: 1080px;
+    justify-content: space-evenly;
+  }
+  .container .hero .topHero .topHeroContent .carousel .s1 {
+    margin: 0 0 0 0;
+    width: 250px;
+    height: 220px;
+    gap: 84px;
+  }
+  .container .hero .topHero .topHeroContent .carousel .s1 p {
+    font-size: 30px;
+    width: 250px;
+  }
+  .container .hero .topHero .topHeroContent .carousel .s1 button {
+    width: 200px;
+  }
+  .container .hero .topHero .topHeroContent .carousel .s2 {
+    width: auto;
+    height: 294px;
+  }
+  .container .hero .topHero .topHeroContent .carousel .s2 img {
+    width: 270px;
+    height: 180px;
+    margin-top: 60px;
+  }
+  .container .hero .topHero .topHeroContent .carousel .s2 .circle {
+    position: absolute;
+    width: 105px;
+    height: 105px;
+    margin: 0 0 0 58px;
+  }
+  .container .hero .topHero .topHeroContent .carousel .s2 .circle .second {
+    font-size: 18px;
+  }
+  .container .hero .topHero .topHeroContent .carousel .s3 {
+    width: auto;
+    height: 300px;
+  }
+  .container .hero .topHero .topHeroContent .carousel .s3 img {
+    width: 300px;
+  }
+  .container .hero .topHero .topHeroContent .carousel .point {
+    margin: -50px 640px;
+  }
+  .container .hero .topHero .topHeroContent .carousel .point span {
+    width: 15px;
+    height: 11px;
+    background-color: black;
+    border: white 2px solid;
+    border-radius: 50%;
+  }
+  .container .hero .topHero .topHeroContent .carousel .logoCarousel {
+    margin: 0 0 -50px 0;
+  }
+  .container .hero .topHero .topHeroContent .social {
+    transform: rotate(-90deg);
+    width: 392px;
+    height: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: -125px;
+    gap: 15px;
+  }
+  .container .hero .topHero .topHeroContent .social .insta,
+.container .hero .topHero .topHeroContent .social .facebook,
+.container .hero .topHero .topHeroContent .social .twitter {
+    flex-direction: row;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    cursor: pointer;
+    gap: 13px;
+  }
+  .container .hero .topHero .topHeroContent .social .insta p,
+.container .hero .topHero .topHeroContent .social .facebook p,
+.container .hero .topHero .topHeroContent .social .twitter p {
+    color: black;
+  }
+  .container .hero .topHero .topHeroContent .social span {
+    width: 7px;
+    height: 7px;
+    background-color: #1c1c1c;
+    border-radius: 50%;
+  }
+  .container .hero .middleHero .middleHeroContent {
+    border-radius: 5px;
+    border: 2px solid #f2f2f2;
+    width: 1297px;
+    height: 73px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 82px 0 82px;
+  }
+  .container .hero .middleHero .middleHeroContent p {
+    font-size: 16px;
+    margin-left: 268px;
+  }
+  .container .hero .middleHero .middleHeroContent p a {
+    color: white;
+    text-decoration: none;
+  }
+  .container .hero .middleHero .middleHeroContent img {
+    margin-left: 233px;
+    cursor: pointer;
+  }
+  .container .hero .bottomHero .bottomHeroContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    margin: 47px 82px 0 82px;
+  }
+  .container .hero .bottomHero .bottomHeroContent p {
+    font-size: 24px;
+  }
+  .container .hero .bottomHero .bottomHeroContent .box {
+    margin: 42px 0 74px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    gap: 21px;
+  }
+  .container .hero .bottomHero .bottomHeroContent .box .item {
+    width: 242px;
+    height: 296px;
+    background-image: url("../../assets/item.png");
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 8px;
+  }
+  .container .hero .bottomHero .bottomHeroContent .box .item p {
+    margin: 0 0 36px 0;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    max-width: 172px;
+  }
+  .container .middleHero .middleHeroContent {
+    width: 1080px;
+    height: 53px;
+    margin: 35px 62px 0 62px;
+  }
+  .container .middleHero .middleHeroContent p {
+    text-align: center;
+    margin-left: 0;
+  }
+  .container .middleHero .middleHeroContent p a {
+    color: black;
+    text-decoration: none;
+  }
+  .container .middleHero .middleHeroContent img {
+    width: 20px;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+  }
+  .container .bottomHero .bottomHeroContent {
+    margin: 47px 62px 0 62px;
+  }
+  .container .bottomHero .bottomHeroContent p {
+    font-size: 22px;
+  }
+  .container .bottomHero .bottomHeroContent .box {
+    margin: 32px 0 64px 0;
+    gap: 20px;
+  }
+  .container .bottomHero .bottomHeroContent .box .item {
+    width: 200px;
+    height: 280px;
+  }
 }

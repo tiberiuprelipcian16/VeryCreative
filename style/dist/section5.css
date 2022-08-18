@@ -33,3 +33,26 @@
   color: white;
   cursor: pointer;
 }
+
+@media (max-width: 1400px) {
+  .boxImg .boxImgContent {
+    width: 1080px;
+    height: 400px;
+  }
+  .boxImg .boxImgContent .text {
+    width: 250px;
+    margin-left: 66px;
+    gap: 42px;
+  }
+  .boxImg .boxImgContent .text p {
+    font-size: 30px;
+    color: white;
+  }
+  .boxImg .boxImgContent .text button {
+    width: 150px;
+    height: 45px;
+  }
+  .boxImg .boxImgContent img {
+    height: 400px !important;
+  }
+}

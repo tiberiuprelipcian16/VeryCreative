@@ -43,3 +43,33 @@
         }
     }
 }
+
+@media(max-width: 1400px){
+    .sectionProduct2{
+
+        p{
+            font-size: 22px;
+        }
+
+        .newProducts{
+            gap: 20px;
+
+            .product{
+                width: 250px !important;
+                height: 350px !important;
+                gap: 0px !important;
+
+                .image{
+                    justify-self: space-between;
+                    width: 250px !important;
+                    height: 270px !important;
+                    border: none;
+                    
+                    img{
+                        width: 250px;
+                    }
+                }
+            }
+        }
+    }
+}

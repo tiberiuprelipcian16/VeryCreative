@@ -30,3 +30,26 @@
   font-size: 18px;
   text-align: center;
 }
+
+@media (max-width: 1400px) {
+  .sectionProduct2 p {
+    font-size: 22px;
+  }
+  .sectionProduct2 .newProducts {
+    gap: 20px;
+  }
+  .sectionProduct2 .newProducts .product {
+    width: 250px !important;
+    height: 350px !important;
+    gap: 0px !important;
+  }
+  .sectionProduct2 .newProducts .product .image {
+    justify-self: space-between;
+    width: 250px !important;
+    height: 270px !important;
+    border: none;
+  }
+  .sectionProduct2 .newProducts .product .image img {
+    width: 250px;
+  }
+}

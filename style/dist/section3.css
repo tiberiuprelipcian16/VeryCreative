@@ -6,7 +6,8 @@
   align-items: center;
   gap: 75px;
 }
-.section3 .boxImg .boxImgContent {
+
+.boxImg .boxImgContent {
   width: 1297px;
   height: 451px;
   background-image: linear-gradient(to right, #6aa0b8, #70b1bc, #a7d9db 40%, #b1e3e1);
@@ -17,7 +18,7 @@
   justify-content: space-between;
   border-radius: 8px;
 }
-.section3 .boxImg .boxImgContent .text {
+.boxImg .boxImgContent .text {
   width: 326px;
   margin-left: 86px;
   display: flex;
@@ -27,11 +28,11 @@
   justify-content: center;
   align-content: center;
 }
-.section3 .boxImg .boxImgContent .text p {
+.boxImg .boxImgContent .text p {
   font-size: 36px;
   color: white;
 }
-.section3 .boxImg .boxImgContent .text button {
+.boxImg .boxImgContent .text button {
   background-color: transparent;
   border: 2px solid white;
   width: 163px;
@@ -41,23 +42,24 @@
   color: white;
   cursor: pointer;
 }
-.section3 .sectionProduct p {
+
+.sectionProduct p {
   font-size: 24px;
   margin-top: 77px;
 }
-.section3 .sectionProduct .newProducts {
+.sectionProduct .newProducts {
   display: flex;
   gap: 22px;
   flex-direction: row;
   margin-top: 33px;
 }
-.section3 .sectionProduct .newProducts .product {
+.sectionProduct .newProducts .product {
   width: 198px;
   height: 354px;
   display: flex;
   flex-direction: column;
 }
-.section3 .sectionProduct .newProducts .product .image {
+.sectionProduct .newProducts .product .image {
   display: flex;
   justify-content: center;
   width: 196px;
@@ -65,7 +67,7 @@
   border: #f2f2f2 solid 1px;
   border-radius: 5px;
 }
-.section3 .sectionProduct .newProducts .product .image .promo {
+.sectionProduct .newProducts .product .image .promo {
   position: absolute;
   width: 198px;
   height: 37px;
@@ -73,7 +75,7 @@
   flex-direction: row;
   gap: 102px;
 }
-.section3 .sectionProduct .newProducts .product .image .promo span:first-child {
+.sectionProduct .newProducts .product .image .promo span:first-child {
   margin: 11px 0 0 12px;
   display: flex;
   justify-content: center;
@@ -85,7 +87,7 @@
   color: white;
   font-size: 9px;
 }
-.section3 .sectionProduct .newProducts .product .image .promo span:last-child {
+.sectionProduct .newProducts .product .image .promo span:last-child {
   margin: 11px 12px 0 0;
   display: flex;
   justify-content: center;
@@ -97,58 +99,58 @@
   color: black;
   font-size: 9px;
 }
-.section3 .sectionProduct .newProducts .product .image .promoType2 span:first-child {
+.sectionProduct .newProducts .product .image .promoType2 span:first-child {
   background-color: transparent;
   color: transparent;
 }
-.section3 .sectionProduct .newProducts .product p {
+.sectionProduct .newProducts .product p {
   margin: 9px 0 0 0;
   width: 169px;
   height: 33px;
   color: #1d1d1d;
   font-size: 14px;
 }
-.section3 .sectionProduct .newProducts .product .review {
+.sectionProduct .newProducts .product .review {
   margin: 17px 0 0 0;
   display: flex;
   flex-direction: row;
 }
-.section3 .sectionProduct .newProducts .product .review p {
+.sectionProduct .newProducts .product .review p {
   justify-self: flex-end;
   font-size: 12px;
   opacity: 0.7;
   width: 82px;
   text-decoration: underline;
 }
-.section3 .sectionProduct .newProducts .product .review .stars {
+.sectionProduct .newProducts .product .review .stars {
   justify-self: flex-start;
   display: flex;
   flex-direction: row;
   width: 68px;
   height: 12px;
 }
-.section3 .sectionProduct .newProducts .product .review .stars img {
+.sectionProduct .newProducts .product .review .stars img {
   width: 12px;
 }
-.section3 .sectionProduct .newProducts .product .price {
+.sectionProduct .newProducts .product .price {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.section3 .sectionProduct .newProducts .product .price p {
+.sectionProduct .newProducts .product .price p {
   color: #1d1d1d;
 }
-.section3 .sectionProduct .newProducts .product .price .old {
+.sectionProduct .newProducts .product .price .old {
   text-decoration: line-through;
   font-size: 13px;
   width: 42px;
 }
-.section3 .sectionProduct .newProducts .product .price .new {
+.sectionProduct .newProducts .product .price .new {
   font-size: 15px;
   width: 60px;
   margin-right: 20px;
 }
-.section3 .sectionProduct .newProducts .product .price .cart {
+.sectionProduct .newProducts .product .price .cart {
   width: 36px;
   height: 35px;
   background-color: #111111;
@@ -157,11 +159,11 @@
   justify-content: center;
   align-items: center;
 }
-.section3 .sectionProduct .newProducts .product .price .cart img {
+.sectionProduct .newProducts .product .price .cart img {
   width: 17px;
   height: 16px;
 }
-.section3 .sectionProduct .nav {
+.sectionProduct .nav {
   margin-top: 50px;
   width: 1297px;
   height: 46px;
@@ -170,7 +172,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.section3 .sectionProduct .nav .scrool {
+.sectionProduct .nav .scrool {
   width: 1151px;
   height: 2px;
   display: flex;
@@ -178,19 +180,19 @@
   background-color: #00000057;
   align-items: center;
 }
-.section3 .sectionProduct .nav .scrool span {
+.sectionProduct .nav .scrool span {
   width: 170px;
   height: 4px;
   background-color: #282828;
 }
-.section3 .sectionProduct .nav .btn {
+.sectionProduct .nav .btn {
   width: 104px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-.section3 .sectionProduct .nav .btn span {
+.sectionProduct .nav .btn span {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -201,4 +203,90 @@
   font-size: 15px;
   cursor: pointer;
   font-weight: bold;
+}
+
+@media (max-width: 1400px) {
+  .boxImg .boxImgContent {
+    width: 1080px;
+    height: 400px;
+  }
+  .boxImg .boxImgContent .text {
+    width: 250px;
+    margin-left: 66px;
+    gap: 42px;
+  }
+  .boxImg .boxImgContent .text p {
+    font-size: 30px;
+    color: white;
+  }
+  .boxImg .boxImgContent .text button {
+    width: 150px;
+    height: 45px;
+  }
+  .boxImg .boxImgContent img {
+    height: 400px !important;
+  }
+
+  .sectionProduct p {
+    font-size: 22px;
+    margin-top: 70px;
+  }
+  .sectionProduct .newProducts .product {
+    width: 160px;
+    height: 340px;
+  }
+  .sectionProduct .newProducts .product .image {
+    width: 160px;
+    height: 200px;
+  }
+  .sectionProduct .newProducts .product .image .promo {
+    width: 160px;
+    height: 30px;
+  }
+  .sectionProduct .newProducts .product .image .promo span:first-child {
+    width: 30px;
+    height: 30px;
+  }
+  .sectionProduct .newProducts .product p {
+    width: 160px;
+    font-size: 13px;
+  }
+  .sectionProduct .newProducts .product .price .cart {
+    width: 35px;
+    height: 34px;
+    background-color: #111111;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionProduct .newProducts .product .price .cart img {
+    width: 16px;
+    height: 15px;
+  }
+  .sectionProduct .nav {
+    margin-top: 50px;
+    width: 1080px;
+    height: 46px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sectionProduct .nav .scrool {
+    width: 960px;
+    height: 2px;
+    display: flex;
+    justify-content: center;
+    background-color: #00000057;
+    align-items: center;
+  }
+  .sectionProduct .nav .scrool span {
+    width: 140px;
+    height: 4px;
+    background-color: #282828;
+  }
+  .sectionProduct .nav .btn {
+    width: 95px;
+  }
 }

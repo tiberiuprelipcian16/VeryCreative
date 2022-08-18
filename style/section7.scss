@@ -1,6 +1,6 @@
 @import "colors.scss";
 
-.section7{
+.section7 {
     margin: 76px 0 77px 0;
     padding-bottom: 98px;
     background-image: linear-gradient(to top, #fafafa, white);
@@ -8,8 +8,8 @@
     flex-direction: column;
     align-items: center;
 
-    .boxImg{
-        .boxImgContent4{
+    .boxImg {
+        .boxImgContent4 {
             width: 1297px;
             height: 383px;
             background-image: linear-gradient(to left, #0085c6, #038dd0, #007CC1);
@@ -20,77 +20,77 @@
             justify-content: flex-start;
             border-radius: 8px;
 
-            .text{
+            .text {
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
                 justify-content: center;
                 align-content: center;
 
-                p{
+                p {
                     width: 447px;
                     font-size: 16px;
                     color: white;
                 }
 
-                p:first-child{
+                p:first-child {
                     font-size: 30px;
                     margin-bottom: 23px;
                 }
 
-                
-                    form{
-                        margin-top: 38px;
-                        width: 546px;
-                        border-radius: 5px;
-                        height: 81px;
+
+                form {
+                    margin-top: 38px;
+                    width: 546px;
+                    border-radius: 5px;
+                    height: 81px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    background-color: white;
+                    align-content: center;
+
+                    .input {
                         display: flex;
                         flex-direction: row;
-                        justify-content: space-between;
+                        justify-content: flex-start;
                         align-items: center;
                         background-color: white;
                         align-content: center;
-                        
-                        .input{
-                            display: flex;
-                            flex-direction: row;
-                            justify-content: flex-start;
-                            align-items: center;
-                            background-color: white;
-                            align-content: center;
 
-                            img{
-                                margin-left: 23px;
-                            }
-
-                            input{
-                                border: none;
-                                font-size: 16px;
-                                outline: none;
-                                margin-left: 15px;
-                            }
-
+                        img {
+                            margin-left: 23px;
                         }
 
-                        button{
-                            border-radius: 5px;
-                            width: 173px;
-                            height: 60px;
-                            margin-right: 16px;
-                            font-size: 16px;
-                            color: white;
+                        input {
                             border: none;
-                            background-color: $pinkDefault;
+                            font-size: 16px;
+                            outline: none;
+                            margin-left: 15px;
                         }
+
                     }
-                
+
+                    button {
+                        border-radius: 5px;
+                        width: 173px;
+                        height: 60px;
+                        margin-right: 16px;
+                        font-size: 16px;
+                        color: white;
+                        border: none;
+                        background-color: $pinkDefault;
+                    }
+                }
+
 
             }
         }
 
     }
 
-    .deals{
+    .deals {
         display: flex;
         flex-direction: row;
         //gap: 24px;
@@ -99,7 +99,7 @@
         width: 1297px;
         align-content: center;
 
-        .deal{
+        .deal {
             display: flex;
             flex-direction: column;
             width: 305px;
@@ -109,7 +109,7 @@
             background-color: white;
             border-radius: 8px;
 
-            p{
+            p {
                 color: #343434;
                 font-size: 16px;
                 text-align: center;
@@ -117,7 +117,7 @@
                 max-height: 47px;
             }
 
-            .titleDeal{
+            .titleDeal {
                 font-size: 18px;
                 color: #1d1d1d;
                 margin: 22px 0 12px 0;
@@ -128,14 +128,14 @@
 }
 
 
-.socialMedia{
+.socialMedia {
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 23px;
 
-    p{
+    p {
         font-size: 16px;
         display: flex;
         flex-direction: row;
@@ -143,21 +143,79 @@
         align-content: center;
     }
 
-    .username{
+    .username {
         font-size: 30px;
     }
 }
 
-.images{
+.images {
     background-color: white;
     margin-top: 44px;
     display: flex;
     flex-direction: row;
     width: 1461px;
-    img{
+
+    img {
         margin: 0;
         border: 0;
         width: 210px;
         height: 210px;
     }
+}
+
+@media(max-width: 1400px) {
+    .section7 {
+        margin: 66px 0 67px 0;
+        padding-bottom: 88px;
+
+        .boxImg {
+            .boxImgContent4 {
+                width: 1080px;
+
+                .text {
+
+                    form {
+                        width: 400px;
+                        height: 60px;
+
+                        .input {
+
+                            img {
+                                margin-left: 20px;
+                            }
+                        }
+
+                        button {
+                            width: 150px;
+                            height: 45px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .deals {
+            width: 1080px;
+
+            .deal {
+                width: 270px;
+                height: 180px;
+            }
+        }
+
+    }
+
+    .images {
+        width: 1200px;
+
+        img {
+            margin: 0;
+            border: 0;
+            width: 171px;
+            height: 171px;
+        }
+    }
+
 }

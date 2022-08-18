@@ -43,3 +43,36 @@
 
     }
 }
+
+@media(max-width: 1400px){
+    .boxImg{
+        .boxImgContent{
+            width: 1080px;
+            height: 400px;
+
+            .text{
+                width: 250px;
+                margin-left: 66px;
+                gap: 42px;
+
+                
+
+                p{
+                    font-size: 30px;
+                    color: white;
+                }
+
+                button{
+                    width: 150px;
+                    height: 45px;
+                }
+
+            }
+
+            img{
+                height: 400px !important;
+            }
+        }
+
+    }
+}

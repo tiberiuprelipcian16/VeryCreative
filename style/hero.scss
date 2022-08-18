@@ -1,6 +1,6 @@
 @import "colors.scss";
 
-.container{
+.container {
     font-family: 'Quicksand', sans-serif !important;
     font-weight: 600;
     display: flex;
@@ -10,7 +10,7 @@
     align-content: center;
     background-color: #fefefe;
 
-    .hero{
+    .hero {
         width: 1416px;
         height: 1130px;
         background-color: #fefefe;
@@ -19,11 +19,11 @@
         justify-content: center;
         align-items: center;
 
-        .topHero{
+        .topHero {
 
 
 
-            .topHeroContent{
+            .topHeroContent {
                 display: flex;
                 flex-direction: row;
                 width: 1461px;
@@ -31,7 +31,7 @@
                 align-items: center;
                 align-content: center;
 
-                .carousel{
+                .carousel {
                     position: relative;
                     height: 100%;
                     width: 1295px;
@@ -44,12 +44,16 @@
                     flex-wrap: wrap;
                     margin-left: 82px;
 
-                    .s1, .s2, .s3, .point, img{
+                    .s1,
+                    .s2,
+                    .s3,
+                    .point,
+                    img {
                         z-index: 2;
                         position: relative;
                     }
 
-                    .s1{
+                    .s1 {
                         width: 291px;
                         height: 231px;
                         margin: 0 0 0 86px;
@@ -59,14 +63,14 @@
                         align-items: flex-start;
                         gap: 94px;
 
-                        p{
+                        p {
                             font-size: 35px;
                             width: 290px;
                             height: 70px;
                             color: white;
                         }
 
-                        button{
+                        button {
                             width: 231px;
                             height: 60px;
                             background-color: $pinkDefault;
@@ -77,7 +81,7 @@
                         }
                     }
 
-                    .s2{
+                    .s2 {
                         width: 324px;
                         height: 294px;
                         display: flex;
@@ -86,12 +90,12 @@
                         align-items: center;
                         justify-content: space-between;
 
-                        img{
+                        img {
                             width: 324px;
                             height: 224px;
                         }
 
-                        .circle{
+                        .circle {
                             z-index: 3;
                             width: 125px;
                             height: 125px;
@@ -105,21 +109,21 @@
                             justify-content: center;
                             align-content: center;
 
-                            p{
+                            p {
                                 color: white;
                             }
-                            
-                            .first{
+
+                            .first {
                                 font-size: 12px;
                             }
 
-                            .second{
+                            .second {
                                 font-size: 20px;
                             }
                         }
                     }
 
-                    .s3{
+                    .s3 {
                         width: 341px;
                         height: 372px;
                         display: flex;
@@ -129,7 +133,7 @@
 
                     }
 
-                    .point{
+                    .point {
                         align-self: flex-end;
                         position: relative;
                         z-index: 3;
@@ -144,7 +148,7 @@
                         width: 63px;
                         height: 15px;
 
-                        span{
+                        span {
                             width: 15px;
                             height: 11px;
                             background-color: black;
@@ -152,19 +156,19 @@
                             border-radius: 50%;
                         }
 
-                        .white{
+                        .white {
                             background-color: white;
                         }
                     }
 
-                    .logoCarousel{
+                    .logoCarousel {
                         align-self: flex-end;
                         margin: 0 22px -20px 48px;
                     }
-                    
+
                 }
 
-                .carousel::before{
+                .carousel::before {
                     content: "";
                     width: 100%;
                     height: 100%;
@@ -177,7 +181,7 @@
                     z-index: 1;
                 }
 
-                .social{
+                .social {
                     transform: rotate(-90deg);
                     width: 392px;
                     height: 25px;
@@ -188,33 +192,35 @@
                     align-content: center;
                     margin: -125px;
                     gap: 15px;
-        
-                    .insta, .facebook, .twitter{
+
+                    .insta,
+                    .facebook,
+                    .twitter {
                         flex-direction: row;
                         display: flex;
                         font-size: 15px;
                         align-items: center;
                         cursor: pointer;
                         gap: 13px;
-        
-                        p{
+
+                        p {
                             color: black;
                         }
                     }
-        
-                    span{
+
+                    span {
                         width: 7px;
                         height: 7px;
                         background-color: #1c1c1c;
                         border-radius: 50%;
                     }
-        
+
                 }
             }
         }
 
-        .middleHero{
-            .middleHeroContent{
+        .middleHero {
+            .middleHeroContent {
                 border-radius: 5px;
                 border: 2px solid #f2f2f2;
                 width: 1297px;
@@ -225,45 +231,46 @@
                 align-items: center;
                 margin: 35px 82px 0 82px;
 
-                p{
+                p {
                     font-size: 16px;
                     margin-left: 268px;
 
-                    a{
-                        color: white;
+                    a {
+                        color: black;
                         text-decoration: none;
                     }
                 }
-                img{
+
+                img {
                     margin-left: 233px;
                     cursor: pointer;
                 }
             }
         }
 
-        .bottomHero{
-            .bottomHeroContent{
+        .bottomHero {
+            .bottomHeroContent {
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
                 align-content: center;
-                margin: 47px  82px 0 82px;
+                margin: 47px 82px 0 82px;
 
-                p{
+                p {
                     font-size: 24px;
                 }
 
-                .box{
+                .box {
                     margin: 42px 0 74px 0;
                     display: flex;
                     flex-direction: row;
                     align-items: center;
                     align-content: center;
                     justify-content: space-between;
-                   
+
                     gap: 21px;
 
-                    .item{
+                    .item {
                         width: 242px;
                         height: 296px;
                         background-image: url("../../assets/item.png");
@@ -274,7 +281,7 @@
                         justify-content: center;
                         border-radius: 8px;
 
-                        p{
+                        p {
                             margin: 0 0 36px 0;
                             color: white;
                             text-align: center;
@@ -288,4 +295,257 @@
     }
 
 
+
+
+@media(max-width: 1400px) {
+
+    .hero {
+        width: 1200px;
+        height: 1130px;
+        background-color: #fefefe;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .topHero {
+            .topHeroContent {
+                width: 1200px;
+                height: 453px;
+
+
+                .carousel {
+
+                    margin-left: 62px;
+                    border-radius: 8px !important;
+                    width: 1080px;
+
+                    justify-content: space-evenly;
+
+                    .s1 {
+
+                        margin: 0 0 0 0;
+                        width: 250px;
+                        height: 220px;
+                        gap: 84px;
+
+                        p {
+                            font-size: 30px;
+                            width: 250px;
+                        }
+
+                        button {
+                            width: 200px;
+                        }
+
+                    }
+
+                    .s2 {
+                        width: auto;
+                        height: 294px;
+
+                        img {
+                            width: 270px;
+                            height: 180px;
+                            margin-top: 60px;
+                        }
+
+                        .circle {
+                            position: absolute;
+                            width: 105px;
+                            height: 105px;
+                            margin: 0 0 0 58px;
+
+                            .second {
+                                font-size: 18px;
+                            }
+                        }
+                    }
+
+                    .s3 {
+                        width: auto;
+                        height: 300px;
+
+                        img {
+                            width: 300px;
+                        }
+                    }
+
+                    .point {
+                        margin: -50px 640px;
+
+                        span {
+                            width: 15px;
+                            height: 11px;
+                            background-color: black;
+                            border: white 2px solid;
+                            border-radius: 50%;
+                        }
+
+                    }
+
+                    .logoCarousel {
+                        margin: 0 0 -50px 0;
+                    }
+
+                }
+
+
+                .social {
+                    transform: rotate(-90deg);
+                    width: 392px;
+                    height: 23px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    align-content: center;
+                    margin: -125px;
+                    gap: 15px;
+
+                    .insta,
+                    .facebook,
+                    .twitter {
+                        flex-direction: row;
+                        display: flex;
+                        font-size: 15px;
+                        align-items: center;
+                        cursor: pointer;
+                        gap: 13px;
+
+                        p {
+                            color: black;
+                        }
+                    }
+
+                    span {
+                        width: 7px;
+                        height: 7px;
+                        background-color: #1c1c1c;
+                        border-radius: 50%;
+                    }
+
+                }
+            }
+        }
+
+        .middleHero {
+            .middleHeroContent {
+                border-radius: 5px;
+                border: 2px solid #f2f2f2;
+                width: 1297px;
+                height: 73px;
+                display: flex;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+                margin: 35px 82px 0 82px;
+
+                p {
+                    font-size: 16px;
+                    margin-left: 268px;
+
+                    a {
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+
+                img {
+                    margin-left: 233px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .bottomHero {
+            .bottomHeroContent {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                align-content: center;
+                margin: 47px 82px 0 82px;
+
+                p {
+                    font-size: 24px;
+                }
+
+                .box {
+                    margin: 42px 0 74px 0;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    align-content: center;
+                    justify-content: space-between;
+
+                    gap: 21px;
+
+                    .item {
+                        width: 242px;
+                        height: 296px;
+                        background-image: url("../../assets/item.png");
+                        display: flex;
+                        flex-direction: row;
+                        align-items: flex-end;
+                        //align-content: ;
+                        justify-content: center;
+                        border-radius: 8px;
+
+                        p {
+                            margin: 0 0 36px 0;
+                            color: white;
+                            text-align: center;
+                            font-size: 18px;
+                            max-width: 172px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .middleHero {
+        .middleHeroContent {
+            width: 1080px;
+            height: 53px;
+            margin: 35px 62px 0 62px;
+
+            p {
+                text-align: center;
+                margin-left: 0;
+
+                a {
+                    color: black;
+                    text-decoration: none;
+                }
+            }
+
+            img {
+                width: 20px;
+                margin: 0 10px 0 0;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .bottomHero {
+        .bottomHeroContent {
+            margin: 47px 62px 0 62px;
+
+            p {
+                font-size: 22px;
+            }
+
+            .box {
+                margin: 32px 0 64px 0;
+                gap: 20px;
+
+                .item {
+                    width: 200px;
+                    height: 280px;
+                }
+            }
+        }
+    }
+}
 }

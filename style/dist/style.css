@@ -224,3 +224,126 @@ header .bottomHeader .contentBottomHeader a {
   text-decoration: none;
   font-weight: bold;
 }
+
+@media (max-width: 1400px) {
+  header .topHeader {
+    width: 1200px;
+  }
+  header .topHeader .contentTopHeader {
+    margin: 0 68px 0 62px;
+  }
+  header .topHeader .contentTopHeader .logo {
+    margin: 33px 0 28px 0;
+  }
+  header .topHeader .contentTopHeader .logo img {
+    width: 150px;
+    height: 44px;
+  }
+  header .topHeader .contentTopHeader .searchBox {
+    width: 355px;
+    height: 43px;
+    margin: 20px 0;
+  }
+  header .topHeader .contentTopHeader .searchBox input {
+    width: 300px;
+  }
+  header .topHeader .contentTopHeader .searchBox img {
+    width: 20px;
+  }
+  header .topHeader .contentTopHeader .transport {
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  header .topHeader .contentTopHeader .transport img {
+    margin: 44px 5px 44px 0;
+  }
+  header .topHeader .contentTopHeader .transport .text {
+    margin: 45px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  header .topHeader .contentTopHeader .transport .text p {
+    color: white;
+    font-weight: 600;
+  }
+  header .topHeader .contentTopHeader .transport .text .first {
+    width: 95px;
+    height: 13px;
+    font-size: 11px;
+  }
+  header .topHeader .contentTopHeader .transport .text .second {
+    width: 95px;
+    height: 14px;
+    font-size: 14px;
+  }
+  header .topHeader .contentTopHeader .line {
+    width: 2px;
+    height: 41px;
+    margin: 41px 0 35px 0;
+    background-color: #333;
+  }
+  header .topHeader .contentTopHeader .contactPhone {
+    cursor: pointer;
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  header .topHeader .contentTopHeader .contactPhone img {
+    margin: 0 5px 0 0;
+  }
+  header .topHeader .contentTopHeader .contactPhone .text .first {
+    width: 70px;
+    font-size: 11px;
+  }
+  header .topHeader .contentTopHeader .contactPhone .text .second {
+    width: 85px;
+    font-size: 14px;
+    letter-spacing: 50;
+  }
+  header .topHeader .contentTopHeader .client {
+    width: 180px;
+  }
+  header .topHeader .contentTopHeader .client .user img:first-child {
+    width: 20px;
+  }
+  header .topHeader .contentTopHeader .client .heart img:first-child {
+    width: 25px;
+  }
+  header .topHeader .contentTopHeader .client .heart span {
+    margin: -35px 20px;
+    width: 20px;
+    height: 20px;
+  }
+  header .topHeader .contentTopHeader .client .shop img:first-child {
+    width: 20px;
+  }
+  header .topHeader .contentTopHeader .client .shop span {
+    margin: -35px 13px;
+    width: 20px;
+    height: 20px;
+  }
+  header .topHeader .contentTopHeader .client .shop img:last-child {
+    margin: 0 0 0 20px;
+  }
+  header .lineHeader {
+    width: 1200px;
+  }
+  header .lineHeader .line {
+    margin: 1px 64px 0 62px;
+    width: 1080px;
+  }
+  header .bottomHeader {
+    width: 1200px;
+    height: 70px;
+  }
+  header .bottomHeader .contentBottomHeader {
+    margin: 0px 64px 0 62px;
+  }
+}

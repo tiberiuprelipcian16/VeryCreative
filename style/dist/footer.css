@@ -143,3 +143,22 @@ footer .footerFooter .social span {
   background-color: #1c1c1c;
   border-radius: 50%;
 }
+
+@media (max-width: 1400px) {
+  .topFooter {
+    margin: 70px 0 0 0;
+    width: 1200px !important;
+    height: 50px;
+  }
+  .topFooter .contact {
+    margin: 0 !important;
+  }
+
+  .middleFooter {
+    width: 1200px !important;
+  }
+
+  .footerFooter {
+    width: 1200px !important;
+  }
+}
