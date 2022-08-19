@@ -230,3 +230,69 @@
     font-size: 13px;
   }
 }
+@media (max-width: 750px) {
+  .boxImg .boxImgContent {
+    width: 100vw !important;
+    height: 260px !important;
+    border-radius: 0px;
+  }
+  .boxImg .boxImgContent .text {
+    width: 200px !important;
+    margin-left: 46px !important;
+  }
+  .boxImg .boxImgContent .text p {
+    font-size: 20px;
+  }
+  .boxImg .boxImgContent .text button {
+    width: 120px !important;
+    height: 45px !important;
+  }
+  .boxImg .boxImgContent img {
+    height: 260px !important;
+    width: 55%;
+  }
+  .boxImg .boxImgContent4 {
+    border-radius: 0px;
+    margin: 0;
+    width: 100vw !important;
+    height: 260px !important;
+  }
+  .boxImg .boxImgContent4 .img {
+    height: 260px;
+    width: 55%;
+  }
+  .boxImg .boxImgContent4 .text {
+    width: 100%;
+    align-content: center;
+    align-items: center;
+  }
+  .boxImg .boxImgContent4 .text p {
+    text-align: center;
+    font-size: 15px !important;
+    width: 90%;
+  }
+  .boxImg .boxImgContent4 .text form {
+    margin: 20px 0 0 0;
+    width: 250px;
+    height: 50px;
+  }
+  .boxImg .boxImgContent4 .text form .input {
+    margin: 0 0 0 10px;
+    width: 65%;
+  }
+  .boxImg .boxImgContent4 .text form .input input {
+    margin-left: 10px;
+    width: 80%;
+    font-size: 12px;
+  }
+  .boxImg .boxImgContent4 .text form .input img {
+    width: 17px;
+    margin-left: 0px;
+  }
+  .boxImg .boxImgContent4 .text form button {
+    margin: 0 10px 0 0;
+    width: 35%;
+    height: 30px;
+    font-size: 12px;
+  }
+}

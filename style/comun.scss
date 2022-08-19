@@ -1,125 +1,5 @@
 @import "colors.scss";
 
-.boxImg {
-    .boxImgContent {
-        width: 1297px;
-        height: 451px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        align-content: center;
-        justify-content: space-between;
-        border-radius: 8px;
-
-        .text {
-            width: 326px;
-            margin-left: 86px;
-            display: flex;
-            flex-direction: column;
-            gap: 42px;
-            align-items: flex-start;
-            justify-content: center;
-            align-content: center;
-
-            p {
-                font-size: 36px;
-                color: white;
-            }
-
-            button {
-                background-color: transparent;
-                border: 2px solid white;
-                width: 163px;
-                height: 54px;
-                border-radius: 5px;
-                font-size: 15px;
-                color: white;
-                cursor: pointer;
-            }
-
-        }
-    }
-
-    .boxImgContent4 {
-        width: 1297px;
-        height: 383px;
-        background-image: linear-gradient(to left, #0085c6, #038dd0, #007CC1);
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        align-content: center;
-        justify-content: flex-start;
-        border-radius: 8px;
-
-        .text {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            justify-content: center;
-            align-content: center;
-
-            p {
-                width: 447px;
-                font-size: 16px;
-                color: white;
-            }
-
-            p:first-child {
-                font-size: 30px;
-                margin-bottom: 23px;
-            }
-
-
-            form {
-                margin-top: 38px;
-                width: 546px;
-                border-radius: 5px;
-                height: 81px;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                align-items: center;
-                background-color: white;
-                align-content: center;
-
-                .input {
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: flex-start;
-                    align-items: center;
-                    background-color: white;
-                    align-content: center;
-
-                    img {
-                        margin-left: 23px;
-                    }
-
-                    input {
-                        border: none;
-                        font-size: 16px;
-                        outline: none;
-                        margin-left: 15px;
-                    }
-
-                }
-
-                button {
-                    border-radius: 5px;
-                    width: 173px;
-                    height: 60px;
-                    margin-right: 16px;
-                    font-size: 16px;
-                    color: white;
-                    border: none;
-                    background-color: $pinkDefault;
-                }
-            }
-
-
-        }
-    }
-}
-
 .sectionProduct {
 
     p {
@@ -323,53 +203,7 @@
 
 @media(max-width: 1461px) {
 
-    .boxImg {
-        .boxImgContent {
-            width: 1080px !important;
-            height: 400px !important;
 
-            .text {
-                width: 250px !important;
-                margin-left: 46px !important;
-
-                button {
-                    width: 150px !important;
-                    height: 45px !important;
-                }
-
-            }
-
-            img {
-                height: 400px !important;
-            }
-        }
-
-        .boxImgContent4 {
-            width: auto !important;
-            margin: 0 !important;
-
-            .text {
-
-                form {
-                    width: 400px;
-                    height: 60px;
-
-                    .input {
-
-                        img {
-                            margin-left: 20px;
-                        }
-                    }
-
-                    button {
-                        width: 150px;
-                        height: 45px;
-                        font-size: 14px;
-                    }
-                }
-            }
-        }
-    }
 
     .sectionProduct {
 
@@ -445,64 +279,7 @@
 }
 
 @media(max-width: 1200px) {
-    .boxImg {
-        .boxImgContent {
-            width: calc(100vw - 40px) !important;
-            height: 320px !important;
 
-            .text {
-                width: 250px !important;
-                margin-left: 46px !important;
-
-                button {
-                    width: 150px !important;
-                    height: 45px !important;
-                }
-
-            }
-
-            img {
-                height: 320px !important;
-            }
-        }
-
-        .boxImgContent4 {
-            margin: 0 20px ;
-            width: calc(100vw - 40px) !important;
-            height: 320px !important;
-
-            .img {
-                height: 320px;
-            }
-
-            .text {
-
-                form {
-                    width: 320px;
-                    height: 50px;
-
-                    .input {
-
-                        input {
-                            width: 150px;
-                            font-size: 13px;
-                        }
-
-                        img {
-                            width: 20px;
-                            margin-left: 20px;
-                        }
-                    }
-
-                    button {
-                        width: 100px;
-                        height: 35px;
-                        font-size: 13px;
-                    }
-                }
-            }
-        }
-    }
 
     .sectionProduct {
         width: 100vw;
@@ -577,6 +354,202 @@
                     width: 150px;
                     height: 4px;
                     background-color: #282828;
+                }
+            }
+
+        }
+    }
+}
+
+@media(max-width: 1024px) {
+
+
+    .sectionProduct {
+        width: 100vw;
+
+        p {
+            text-align: center;
+            font-size: 22px;
+            margin: 50px 0;
+        }
+
+        .newProducts {
+            width: auto;
+            margin: 0 20px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-items: center;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+            gap: 60px;
+
+            .product {
+                width: calc(100vw/5 - 10px);
+                height: 305px;
+                display: flex;
+                
+                align-items: center;
+                
+
+                .image {
+                    width: calc(100vw/5 - 10px);
+                    height: 170px;
+
+                    .promo {
+                        width: calc(100vw/5 - 10px);
+                        height: 30px;
+
+                        span:first-child {
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+
+                    img {
+                        width: calc(100vw/5 - 10px);
+                    }
+
+                }
+
+                p {
+                    width: 145.5px;
+                    font-size: 12px;
+                }
+
+                .price {
+                    .old {
+                        font-size: 11px;
+                    }
+
+                    .new {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+
+        .nav {
+            width: calc(100vw - 40px);
+            height: 46px;
+            margin: 20px;
+
+            .scrool {
+
+                width: 80vw;
+                height: 2px;
+                display: flex;
+                justify-content: center;
+                background-color: #00000057;
+                align-items: center;
+
+                span {
+                    width: 150px;
+                    height: 4px;
+                    background-color: #282828;
+                }
+            }
+
+            .btn{
+                span{
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+
+        }
+    }
+}
+
+@media(max-width: 750px) {
+
+
+    .sectionProduct {
+        width: 100vw;
+
+        p {
+            text-align: center;
+            font-size: 22px;
+            margin: 50px 0;
+        }
+
+        .newProducts {
+            width: auto;
+            margin: 0 20px;
+            display: grid;
+            grid-template-columns: auto auto ;
+            justify-items: center;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+            gap: 60px;
+
+            .product {
+                width: 30vw;
+                height: 305px;
+                display: flex;
+               // border: 2px solid #1c1c1c15;
+                align-items: center;
+                background-color: #f8f8f8;
+                border-radius: 8px;
+                
+
+                .image {
+                    width: calc(30vw - 1.1px);
+                    height: 170px;
+
+                    .promo {
+                        width: calc(30vw - 10px);
+                        height: 30px;
+
+                        span:first-child {
+                            width: 30px;
+                            height: 24px;
+                            font-size: 8px;
+                        }
+
+                        span:last-child{
+                            height: 24px;
+                            width: 40px;
+                        }
+                    }
+
+                    img {
+                        width: calc(100vw/5);
+                    }
+
+                }
+            }
+        }
+
+        .nav {
+            width: calc(100vw - 40px);
+            height: 46px;
+            margin: 20px;
+
+            .scrool {
+
+                width: 73vw;
+                height: 2px;
+                display: flex;
+                justify-content: center;
+                background-color: #00000057;
+                align-items: center;
+
+                span {
+                    width: 150px;
+                    height: 4px;
+                    background-color: #282828;
+                }
+            }
+
+            .btn{
+
+                justify-content: space-around;
+
+                span{
+                    width: 30px;
+                    height: 30px;
                 }
             }
 

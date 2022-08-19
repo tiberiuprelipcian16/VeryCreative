@@ -114,18 +114,6 @@
     flex-direction: row;
     margin-top: 30px;
   }
-  .section6 .sectionProduct3 .newProducts .productBackground1 {
-    background-image: url("../../assets/imgS6_1.png");
-  }
-  .section6 .sectionProduct3 .newProducts .productBackground2 {
-    background-image: url("../../assets/imgS6_2.png");
-  }
-  .section6 .sectionProduct3 .newProducts .productBackground3 {
-    background-image: url("../../assets/imgS6_3.png");
-  }
-  .section6 .sectionProduct3 .newProducts .productBackground4 {
-    background-image: url("../../assets/imgS6_4.png");
-  }
   .section6 .sectionProduct3 .newProducts .product {
     width: 250px;
     height: 330px;
@@ -154,5 +142,95 @@
     width: calc( 100vw / 4 - 25px) !important;
     height: 330px;
     border-radius: 8px;
+  }
+}
+@media (max-width: 1024px) {
+  .section6 {
+    width: 100vw;
+    margin: 30px 20px;
+  }
+  .section6 .sectionProduct3 {
+    width: auto;
+    margin: 0;
+  }
+  .section6 .sectionProduct3 .info p {
+    margin: 20px !important;
+    font-size: 14px;
+    text-align: center;
+  }
+  .section6 .sectionProduct3 .info p:first-child {
+    font-size: 22px;
+  }
+  .section6 .sectionProduct3 .newProducts {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  .section6 .sectionProduct3 .newProducts .product {
+    width: calc( 100vw / 3.5) !important;
+    height: 330px;
+    border-radius: 8px;
+  }
+  .section6 .sectionProduct3 .newProducts .product .details {
+    margin: 20px 0;
+    width: inherit !important;
+  }
+  .section6 .sectionProduct3 .newProducts .product .details p {
+    max-width: 80% !important;
+    margin: auto !important;
+    text-align: center;
+    font-size: 14px;
+  }
+  .section6 .sectionProduct3 .newProducts .product .details p:first-child {
+    font-size: 10px;
+    margin: 0;
+  }
+}
+@media (max-width: 750px) {
+  .section6 {
+    width: 100vw;
+    margin: 30px 20px;
+  }
+  .section6 .sectionProduct3 {
+    width: auto;
+    margin: 0;
+  }
+  .section6 .sectionProduct3 .info p {
+    margin: 20px !important;
+    font-size: 14px;
+    text-align: center;
+  }
+  .section6 .sectionProduct3 .info p:first-child {
+    font-size: 22px;
+  }
+  .section6 .sectionProduct3 .newProducts {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  .section6 .sectionProduct3 .newProducts .product {
+    width: calc( 100vw / 3.5) !important;
+    height: 280px;
+    border-radius: 8px;
+  }
+  .section6 .sectionProduct3 .newProducts .product .details {
+    margin: 20px 0;
+    width: inherit !important;
+  }
+  .section6 .sectionProduct3 .newProducts .product .details p {
+    max-width: 80% !important;
+    margin: auto !important;
+    text-align: center;
+    font-size: 14px;
+  }
+  .section6 .sectionProduct3 .newProducts .product .details p:first-child {
+    font-size: 10px;
+    margin: 0;
   }
 }

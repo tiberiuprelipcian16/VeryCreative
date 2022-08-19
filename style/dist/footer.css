@@ -89,19 +89,25 @@ footer .middleFooter .contactFooter .contactFooterContent {
   justify-content: space-between;
   flex-direction: column;
 }
-footer .middleFooter .contactFooter .contactFooterContent .clock, footer .middleFooter .contactFooter .contactFooterContent .mail, footer .middleFooter .contactFooter .contactFooterContent .address {
+footer .middleFooter .contactFooter .contactFooterContent .clock,
+footer .middleFooter .contactFooter .contactFooterContent .mail,
+footer .middleFooter .contactFooter .contactFooterContent .address {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   flex-direction: row;
 }
-footer .middleFooter .contactFooter .contactFooterContent .clock p, footer .middleFooter .contactFooter .contactFooterContent .mail p, footer .middleFooter .contactFooter .contactFooterContent .address p {
+footer .middleFooter .contactFooter .contactFooterContent .clock p,
+footer .middleFooter .contactFooter .contactFooterContent .mail p,
+footer .middleFooter .contactFooter .contactFooterContent .address p {
   max-width: 266px;
   font-size: 16px;
   opacity: 0.8;
   font-weight: 600;
 }
-footer .middleFooter .contactFooter .contactFooterContent .clock div, footer .middleFooter .contactFooter .contactFooterContent .mail div, footer .middleFooter .contactFooter .contactFooterContent .address div {
+footer .middleFooter .contactFooter .contactFooterContent .clock div,
+footer .middleFooter .contactFooter .contactFooterContent .mail div,
+footer .middleFooter .contactFooter .contactFooterContent .address div {
   gap: 10px;
 }
 footer .footerFooter {
@@ -126,7 +132,9 @@ footer .footerFooter .social {
   align-items: center;
   align-content: center;
 }
-footer .footerFooter .social .insta, footer .footerFooter .social .facebook, footer .footerFooter .social .twitter {
+footer .footerFooter .social .insta,
+footer .footerFooter .social .facebook,
+footer .footerFooter .social .twitter {
   flex-direction: row;
   display: flex;
   font-size: 15px;
@@ -134,7 +142,9 @@ footer .footerFooter .social .insta, footer .footerFooter .social .facebook, foo
   cursor: pointer;
   gap: 13px;
 }
-footer .footerFooter .social .insta p, footer .footerFooter .social .facebook p, footer .footerFooter .social .twitter p {
+footer .footerFooter .social .insta p,
+footer .footerFooter .social .facebook p,
+footer .footerFooter .social .twitter p {
   color: black;
 }
 footer .footerFooter .social span {
@@ -184,5 +194,62 @@ footer .footerFooter .social span {
   .footerFooter {
     margin: 20px !important;
     width: auto !important;
+  }
+}
+@media (max-width: 1024px) {
+  .content {
+    width: 100vw !important;
+  }
+
+  .topFooter {
+    margin: 30px 0px !important;
+    width: auto !important;
+    height: 50px;
+    justify-content: space-around !important;
+  }
+  .topFooter .logoFooter img {
+    width: 150px !important;
+  }
+  .topFooter .contact {
+    margin: 0 !important;
+  }
+  .topFooter .contact div img {
+    width: 40px;
+  }
+  .topFooter .contact div .text {
+    gap: 12px;
+  }
+  .topFooter .contact div .text p {
+    font-size: 14px !important;
+  }
+  .topFooter .contact div .text a {
+    font-size: 20px !important;
+  }
+
+  .middleFooter {
+    margin: 0 40px !important;
+    width: auto !important;
+  }
+  .middleFooter div a {
+    font-size: 13px !important;
+  }
+  .middleFooter div .title {
+    text-align: center !important;
+    font-size: 14px !important;
+  }
+  .middleFooter .contactFooter .contactFooterContent p {
+    font-size: 13px !important;
+    max-width: 160px !important;
+  }
+
+  .footerFooter {
+    margin: 40px !important;
+    width: auto !important;
+  }
+  .footerFooter p {
+    font-size: 13px !important;
+  }
+  .footerFooter .social {
+    width: 300px !important;
   }
 }

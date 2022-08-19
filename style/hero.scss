@@ -499,7 +499,7 @@
         }
     }
     
-    @media(max-width: 1200px) {
+    @media(max-width: 1024px) {
 
         .hero {
             width: 100vw;
@@ -599,6 +599,7 @@
                 .middleHeroContent {
                     width: auto;
                     height: auto;
+                    padding: 15px 0;
                     margin: 20px;
                     text-align: center;
 
@@ -638,6 +639,162 @@
                         .item {
                             width: calc(100vw/5 - 24px);
                             height: 230px;
+
+                            p{
+                                width: 85%;
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media(max-width: 750px) {
+
+        .hero {
+            width: 100vw;
+            height: auto;
+            justify-content: space-around;
+            margin: 20px 0;
+
+            .topHero {
+                .topHeroContent {
+                    margin-top: 0;
+                    width: 100vw;
+                    height: 560px;
+
+                    .carousel {
+                        transform: rotate(90deg);
+                        width: 600px;
+                        border-radius: 8px !important;
+                        height: 400px;
+                        align-items: center;
+                        align-content: center;
+                        justify-content: center;
+                        margin: 0;
+                        gap: 0px;
+
+                        .s1 {
+                            transform: rotate(-90deg);
+                            width: 25%;
+                            max-height: 130px;
+                            justify-content: center;
+                            gap: 0;
+                            margin: 0 !important;
+                            align-items: center;
+                            height: auto;
+
+                            p{
+                                text-align: center;
+                                font-size: 25px;
+                            }
+
+
+                            button {
+                                font-size: 11px;
+                                width: 120px;
+                                height: 25px;
+                            }
+                        }
+
+                        .s2 {
+                            transform: rotate(-90deg);
+                            margin: 0;
+                            width: 30%;
+                            height: auto;
+
+                            img {
+                                width: 150px;
+                                height: 115px;
+                                margin-top: 0px;
+                            }
+
+                            .circle {
+                                position: absolute;
+                                width: 50px;
+                                height: 50px;
+                                margin: -20px 0 0 40px;
+
+                                .first {
+                                    margin: 0;
+                                    font-size: 7px;
+                                }
+
+                                .second {
+                                    margin: 0;
+                                    font-size: 10px;
+                                }
+                            }
+                        }
+
+                        .s3 {
+                            transform: rotate(-90deg);
+                            margin: 0;
+                            width: 25%;
+                            height: auto;
+
+                            img {
+                                width: 130px;
+                            }
+                        }
+
+                        .point {
+                            display: none;
+                            transform: rotate(-90deg);
+                            margin: -45px 50%;
+                            span{
+                                width: 7px;
+                                height: 7px;
+                            }
+                        }
+
+                        .logoCarousel {
+                            display: none;
+                        }
+                    }
+
+                    .social {
+                        display: none;
+                    }
+                }
+            }
+
+            .middleHero {
+                margin-top: 5%;
+
+                .middleHeroContent {
+                    padding: 15px 0;
+                }
+            }
+
+            .bottomHero {
+
+                .bottomHeroContent {
+                    width: calc(100vw - 40px);
+                    margin: 30px 20px 0 20px !important;
+                    justify-content: center;
+                    align-items: center;
+                    align-content: center;
+
+                    p {
+                        margin-top: 20px;
+                        margin-bottom: 0;
+                        font-size: 18px;
+                    }
+
+                    .box {
+                        display: grid !important;
+                        grid-template-columns: auto auto !important;
+                        justify-items: center !important;
+                        align-items: center !important;
+                        justify-content: center !important;
+                        align-content: center !important;
+
+                        .item {
+                            width: calc(100vw/3);
+                            height: 260px;
 
                             p{
                                 width: 85%;
