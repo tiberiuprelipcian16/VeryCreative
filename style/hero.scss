@@ -1,45 +1,27 @@
 @import "colors.scss";
 
 .container {
+    margin-top: 50px;
     font-family: 'Quicksand', sans-serif !important;
     font-weight: 600;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
     background-color: #fefefe;
 
     .hero {
         width: 1416px;
         height: 1130px;
         background-color: #fefefe;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
 
         .topHero {
-
-
-
             .topHeroContent {
-                display: flex;
-                flex-direction: row;
                 width: 1461px;
                 height: 453px;
-                align-items: center;
-                align-content: center;
 
                 .carousel {
                     position: relative;
                     height: 100%;
                     width: 1295px;
                     background-image: url(../../assets/before.png);
-                    display: flex;
-                    flex-direction: row;
-                    align-items: center;
-                    align-content: center;
                     justify-content: space-between;
                     flex-wrap: wrap;
                     margin-left: 82px;
@@ -57,9 +39,6 @@
                         width: 291px;
                         height: 231px;
                         margin: 0 0 0 86px;
-                        display: flex;
-                        flex-direction: column;
-                        align-content: center;
                         align-items: flex-start;
                         gap: 94px;
 
@@ -84,10 +63,6 @@
                     .s2 {
                         width: 324px;
                         height: 294px;
-                        display: flex;
-                        flex-direction: column;
-                        align-content: center;
-                        align-items: center;
                         justify-content: space-between;
 
                         img {
@@ -101,13 +76,8 @@
                             height: 125px;
                             background-color: $pinkDefault;
                             border-radius: 50%;
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center;
                             margin: 0 0 -55px 58px;
                             align-self: flex-start;
-                            justify-content: center;
-                            align-content: center;
 
                             p {
                                 color: white;
@@ -126,22 +96,13 @@
                     .s3 {
                         width: 341px;
                         height: 372px;
-                        display: flex;
-                        flex-direction: column;
-                        align-content: center;
-                        align-items: center;
-
                     }
 
                     .point {
                         align-self: flex-end;
                         position: relative;
                         z-index: 3;
-                        display: flex;
-                        flex-direction: row;
                         flex-wrap: nowrap;
-                        align-items: center;
-                        align-content: center;
                         justify-content: space-between;
                         gap: 9px;
                         margin: -10px 640px;
@@ -185,11 +146,7 @@
                     transform: rotate(-90deg);
                     width: 392px;
                     height: 25px;
-                    display: flex;
-                    flex-direction: row;
                     justify-content: space-between;
-                    align-items: center;
-                    align-content: center;
                     margin: -125px;
                     gap: 15px;
 
@@ -225,13 +182,11 @@
                 border: 2px solid #f2f2f2;
                 width: 1297px;
                 height: 73px;
-                display: flex;
-                align-content: center;
-                justify-content: center;
-                align-items: center;
+
                 margin: 35px 82px 0 82px;
 
                 p {
+                    text-align: center;
                     font-size: 16px;
                     margin-left: 268px;
 
@@ -250,10 +205,7 @@
 
         .bottomHero {
             .bottomHeroContent {
-                display: flex;
-                flex-direction: column;
                 align-items: flex-start;
-                align-content: center;
                 margin: 47px 82px 0 82px;
 
                 p {
@@ -262,10 +214,6 @@
 
                 .box {
                     margin: 42px 0 74px 0;
-                    display: flex;
-                    flex-direction: row;
-                    align-items: center;
-                    align-content: center;
                     justify-content: space-between;
 
                     gap: 21px;
@@ -277,7 +225,6 @@
                         display: flex;
                         flex-direction: row;
                         align-items: flex-end;
-                        //align-content: ;
                         justify-content: center;
                         border-radius: 8px;
 
@@ -297,255 +244,409 @@
 
 
 
-@media(max-width: 1400px) {
+    @media(max-width: 1461px) {
 
-    .hero {
-        width: 1200px;
-        height: 1130px;
-        background-color: #fefefe;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        .hero {
+            width: 1200px;
+            height: 1130px;
 
-        .topHero {
-            .topHeroContent {
-                width: 1200px;
-                height: 453px;
+            .topHero {
+                .topHeroContent {
+                    width: 1200px;
+                    height: 453px;
 
+                    .carousel {
+                        margin-left: 62px;
+                        border-radius: 8px !important;
+                        width: 1080px;
 
-                .carousel {
-
-                    margin-left: 62px;
-                    border-radius: 8px !important;
-                    width: 1080px;
-
-                    justify-content: space-evenly;
-
-                    .s1 {
-
-                        margin: 0 0 0 0;
-                        width: 250px;
-                        height: 220px;
-                        gap: 84px;
-
-                        p {
-                            font-size: 30px;
+                        .s1 {
+                            margin: 0 0 0 20px;
                             width: 250px;
+                            height: 220px;
+                            gap: 84px;
+
+                            p {
+                                font-size: 30px;
+                                width: 250px;
+                            }
+
+                            button {
+                                width: 200px;
+                            }
                         }
 
-                        button {
-                            width: 200px;
+                        .s2 {
+                            width: auto;
+                            height: 294px;
+
+                            img {
+                                width: 270px;
+                                height: 180px;
+                                margin-top: 60px;
+                            }
+
+                            .circle {
+                                position: absolute;
+                                width: 105px;
+                                height: 105px;
+                                margin: 0 0 0 58px;
+
+                                .second {
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+
+                        .s3 {
+                            width: auto;
+                            height: 300px;
+
+                            img {
+                                width: 300px;
+                            }
+                        }
+
+                        .point {
+                            margin: -50px 50%;
+                        }
+
+                        .logoCarousel {
+                            margin: 0 20px -50px 0;
                         }
 
                     }
 
-                    .s2 {
-                        width: auto;
-                        height: 294px;
+                    .social {
+                        margin: -165px;
+                    }
+                }
+            }
 
-                        img {
-                            width: 270px;
-                            height: 180px;
-                            margin-top: 60px;
+            .middleHero {
+                width: 1200px;
+
+                .middleHeroContent {
+                    width: 1080px;
+                    height: 53px;
+                    margin: 35px 62px 0 62px;
+
+                    p {
+                        font-size: 15px;
+                    }
+
+                    img {
+                        width: 18px;
+                    }
+                }
+            }
+
+            .bottomHero {
+                width: 1200px;
+
+                .bottomHeroContent {
+                    margin: 47px 62px 0 62px;
+
+                    p {
+                        font-size: 22px;
+                    }
+
+                    .box {
+                        margin: 42px 0 64px 0;
+                        gap: 20px;
+
+                        .item {
+                            width: 200px;
+                            height: 270px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media(max-width: 1200px) {
+
+        .hero {
+            width: 100vw;
+            height: auto;
+            justify-content: space-around;
+            margin: 20px 0;
+
+            .topHero {
+                .topHeroContent {
+                    margin-top: 0;
+                    width: 100vw;
+                    height: 400px;
+
+                    .carousel {
+                        margin: 0 0 20px 20px;
+                        border-radius: 8px !important;
+                        height: 400px;
+
+                        .s1 {
+                            margin: 0 0 0 20px;
+                            width: auto;
+                            height: 210px;
+                            gap: 84px;
+
+
+                            button {
+                                font-size: 15px;
+                                width: 170px;
+                                height: 50px;
+                            }
                         }
 
-                        .circle {
-                            position: absolute;
-                            width: 105px;
-                            height: 105px;
-                            margin: 0 0 0 58px;
+                        .s2 {
+                            width: auto;
+                            height: 294px;
 
-                            .second {
-                                font-size: 18px;
+                            img {
+                                width: 270px;
+                                height: 180px;
+                                margin-top: 60px;
+                            }
+
+                            .circle {
+                                position: absolute;
+                                width: 95px;
+                                height: 95px;
+                                margin: 0 0 0 58px;
+
+                                .first {
+                                    font-size: 10px;
+                                }
+
+                                .second {
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+
+                        .s3 {
+                            width: auto;
+                            height: 250px;
+
+                            img {
+                                width: 250px;
+                            }
+                        }
+
+                        .point {
+                            margin: -40px 50%;
+                        }
+
+                        .logoCarousel {
+                            margin: 0 20px -40px 0;
+                        }
+
+                    }
+
+                    .social {
+                        margin: -145px;
+                    }
+                }
+            }
+
+            .middleHero {
+                width: 100vw;
+
+                .middleHeroContent {
+                    width: auto;
+                    height: 53px;
+                    margin: 20px;
+
+                    p {
+                        text-align: center;
+                        font-size: 15px;
+                        margin-left: 25%;
+                    }
+
+                    img {
+                        margin-right: 10px;
+                        width: 15px;
+                    }
+                }
+            }
+
+            .bottomHero {
+                width: 100vw;
+                margin: 0;
+
+                .bottomHeroContent {
+                    width: calc(100vw - 40px);
+                    margin: 30px 20px 0 20px !important;
+
+                    p {
+                        margin-top: 20px;
+                        margin-bottom: 0;
+                        font-size: 22px;
+                    }
+
+                    .box {
+                        width: auto;
+                        margin: 35px 0 50px 0;
+                        gap: 20px;
+
+                        .item {
+                            width: calc(100vw/5 - 24px);
+                            height: 270px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    @media(max-width: 1200px) {
+
+        .hero {
+            width: 100vw;
+            height: auto;
+            justify-content: space-around;
+            margin: 20px 0;
+
+            .topHero {
+                .topHeroContent {
+                    margin-top: 0;
+                    width: 100vw;
+                    height: 320px;
+
+                    .carousel {
+                        width: auto;
+                        border-radius: 8px !important;
+                        height: 320px;
+                        align-items: center;
+                        align-content: center;
+                        justify-content: space-evenly;
+
+                        .s1 {
+                            width: auto;
+                            height: 180px;
+                            gap: 50px;
+                            margin: 0;
+
+
+                            button {
+                                font-size: 13px;
+                                width: 150px;
+                                height: 30px;
+                            }
+                        }
+
+                        .s2 {
+                            margin: 0;
+                            width: auto;
+                            height: 180px;
+
+                            img {
+                                width: 180px;
+                                height: 150px;
+                                margin-top: 0px;
+                            }
+
+                            .circle {
+                                position: absolute;
+                                width: 70px;
+                                height: 70px;
+                                margin: -25px 0 0 40px;
+
+                                .first {
+                                    margin: 0;
+                                    font-size: 8px;
+                                }
+
+                                .second {
+                                    margin: 0;
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+
+                        .s3 {
+                            margin: 0;
+                            width: auto;
+                            height: 180px;
+
+                            img {
+                                width: 180px;
+                            }
+                        }
+
+                        .point {
+                            margin: -45px 50%;
+                            span{
+                                width: 7px;
+                                height: 7px;
+                            }
+                        }
+
+                        .logoCarousel {
+                            display: none;
+                        }
+                    }
+
+                    .social {
+                        display: none;
+                    }
+                }
+            }
+
+            .middleHero {
+                width: 100vw;
+
+                .middleHeroContent {
+                    width: auto;
+                    height: auto;
+                    margin: 20px;
+                    text-align: center;
+
+                    p {
+                        text-align: center;
+                        font-size: 13px;
+                        margin-left: auto;
+                    }
+
+                    img {
+                        margin-right: 15px;
+                        width: 15px;
+                        margin-left: auto;
+                    }
+                }
+            }
+
+            .bottomHero {
+                width: 100vw;
+                margin: 0;
+
+                .bottomHeroContent {
+                    width: calc(100vw - 40px);
+                    margin: 30px 20px 0 20px !important;
+
+                    p {
+                        margin-top: 20px;
+                        margin-bottom: 0;
+                        font-size: 22px;
+                    }
+
+                    .box {
+                        width: auto;
+                        margin: 35px 0 50px 0;
+                        gap: 20px;
+
+                        .item {
+                            width: calc(100vw/5 - 24px);
+                            height: 230px;
+
+                            p{
+                                width: 85%;
+                                font-size: 13px;
                             }
                         }
                     }
-
-                    .s3 {
-                        width: auto;
-                        height: 300px;
-
-                        img {
-                            width: 300px;
-                        }
-                    }
-
-                    .point {
-                        margin: -50px 640px;
-
-                        span {
-                            width: 15px;
-                            height: 11px;
-                            background-color: black;
-                            border: white 2px solid;
-                            border-radius: 50%;
-                        }
-
-                    }
-
-                    .logoCarousel {
-                        margin: 0 0 -50px 0;
-                    }
-
-                }
-
-
-                .social {
-                    transform: rotate(-90deg);
-                    width: 392px;
-                    height: 23px;
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-between;
-                    align-items: center;
-                    align-content: center;
-                    margin: -125px;
-                    gap: 15px;
-
-                    .insta,
-                    .facebook,
-                    .twitter {
-                        flex-direction: row;
-                        display: flex;
-                        font-size: 15px;
-                        align-items: center;
-                        cursor: pointer;
-                        gap: 13px;
-
-                        p {
-                            color: black;
-                        }
-                    }
-
-                    span {
-                        width: 7px;
-                        height: 7px;
-                        background-color: #1c1c1c;
-                        border-radius: 50%;
-                    }
-
-                }
-            }
-        }
-
-        .middleHero {
-            .middleHeroContent {
-                border-radius: 5px;
-                border: 2px solid #f2f2f2;
-                width: 1297px;
-                height: 73px;
-                display: flex;
-                align-content: center;
-                justify-content: center;
-                align-items: center;
-                margin: 35px 82px 0 82px;
-
-                p {
-                    font-size: 16px;
-                    margin-left: 268px;
-
-                    a {
-                        color: white;
-                        text-decoration: none;
-                    }
-                }
-
-                img {
-                    margin-left: 233px;
-                    cursor: pointer;
-                }
-            }
-        }
-
-        .bottomHero {
-            .bottomHeroContent {
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-                align-content: center;
-                margin: 47px 82px 0 82px;
-
-                p {
-                    font-size: 24px;
-                }
-
-                .box {
-                    margin: 42px 0 74px 0;
-                    display: flex;
-                    flex-direction: row;
-                    align-items: center;
-                    align-content: center;
-                    justify-content: space-between;
-
-                    gap: 21px;
-
-                    .item {
-                        width: 242px;
-                        height: 296px;
-                        background-image: url("../../assets/item.png");
-                        display: flex;
-                        flex-direction: row;
-                        align-items: flex-end;
-                        //align-content: ;
-                        justify-content: center;
-                        border-radius: 8px;
-
-                        p {
-                            margin: 0 0 36px 0;
-                            color: white;
-                            text-align: center;
-                            font-size: 18px;
-                            max-width: 172px;
-                        }
-                    }
                 }
             }
         }
     }
-
-    .middleHero {
-        .middleHeroContent {
-            width: 1080px;
-            height: 53px;
-            margin: 35px 62px 0 62px;
-
-            p {
-                text-align: center;
-                margin-left: 0;
-
-                a {
-                    color: black;
-                    text-decoration: none;
-                }
-            }
-
-            img {
-                width: 20px;
-                margin: 0 10px 0 0;
-                cursor: pointer;
-            }
-        }
-    }
-
-    .bottomHero {
-        .bottomHeroContent {
-            margin: 47px 62px 0 62px;
-
-            p {
-                font-size: 22px;
-            }
-
-            .box {
-                margin: 32px 0 64px 0;
-                gap: 20px;
-
-                .item {
-                    width: 200px;
-                    height: 280px;
-                }
-            }
-        }
-    }
-}
 }

@@ -168,10 +168,10 @@ footer{
     }
 }
 
-@media (max-width: 1400px){
+@media (max-width: 1461px){
     .topFooter{
         margin: 70px 0 0 0;
-        width: 1200px !important;
+        width: 1080px !important;
         height: 50px;
         
         .contact{
@@ -180,10 +180,36 @@ footer{
     }
 
     .middleFooter{
-        width: 1200px !important;
+        width: 1080px !important;
     }
 
     .footerFooter{
-        width: 1200px !important;
+        width: 1080px !important;
+    }
+}
+
+@media (max-width: 1200px){
+
+    .content{
+        width: 100vw !important;
+    }
+    .topFooter{
+        margin: 50px 20px !important;
+        width: auto !important;
+        height: 50px;
+        
+        .contact{
+            margin: 0 !important;
+        }
+    }
+
+    .middleFooter{
+        margin: 0 20px !important;
+        width: auto !important;
+    }
+
+    .footerFooter{
+        margin: 20px !important;
+        width: auto !important;
     }
 }

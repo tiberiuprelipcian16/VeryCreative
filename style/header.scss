@@ -1,0 +1,584 @@
+@import "colors.scss";
+
+header{
+    font-family: 'Quicksand', sans-serif !important;
+    
+    
+    .topHeader{
+
+        width: 1461px;
+        height: 117px;
+        background-color: $blackHeader;
+        
+
+        .contentTopHeader{
+            background-color: $blackHeader;
+            justify-content: space-between;
+            width: 100%;
+            height: 100%;
+            margin: 0 78px 0 82px;
+
+            .logo{
+                margin: 33px 0 28px 0;
+
+                img{
+                    width: 197px;
+                    height: 54px;
+                }
+            }
+
+            .searchBox{
+                border-radius: 9px;
+                width: 455px;
+                height: 63px;
+                margin: 27px 0;
+                background-color: white;
+                flex-direction: row;
+                justify-content: space-between;
+
+                input{
+                    outline: none;
+                    border: none;
+                    margin: 0 0 0 10px;
+                    height: 30px;
+                    width: 380px;
+                    font-size: 16px;
+                }
+
+                img{
+                    cursor: pointer;
+                    margin: 0 10px 0 0 ;
+                }
+            }
+
+            .transport{
+                width: 149px;
+
+                
+
+                img{
+                    margin: 44px 5px 44px 0;
+                }
+
+                .text{
+                    margin: 45px 0 40px 0 ;
+                    display: flex;
+                    flex-direction: column;
+
+                    p{
+                        color: white;
+                        font-weight: 600;
+                    }
+
+                    .first{
+                        width: 111px;
+                        height: 13px;
+                        font-size: 13px;
+                    }
+
+                    .second{
+                        width: 103px;
+                        height: 14px;
+                        font-size: 16px;
+                    }
+                }
+            }
+
+            .line{
+                width: 2px;
+                height: 41px;
+                margin: 41px 0 35px 0;
+                background-color: #333;
+            }
+
+            .contactPhone{
+                cursor: pointer;
+                width: 149px;
+  
+
+                img{
+                    margin: 0 5px 0 0;
+                }
+
+                .text{
+
+                    p{
+                        color: white;
+                        font-weight: 600;
+                    }
+
+                    .first{
+                        width: 91px;
+                        height: 12px;
+                        font-size: 13px;
+                    }
+
+                    .second{
+                        width: 103px;
+                        height: 14px;
+                        font-size: 16px;
+                        letter-spacing: 50;
+                    }
+                }
+            }
+            .client{
+                cursor: pointer;
+                justify-content: space-between;
+                width: 201px;
+                height: 34px;
+
+                .user{
+                    img:first-child{
+                        margin: 0 5px 0 0;
+                    }
+                }
+
+                .heart{
+
+                    span{
+                        position: absolute;
+                        margin: -40px 22px;
+                        width: 25px;
+                        height: 25px;
+                        background-color: $pinkDefault;
+                        border-radius: 50%;
+                        font-size: 12px;
+                        text-align: center;
+                        color: white;
+                        font-weight: 600;
+                    }
+                }
+
+                .shop{
+                    
+                    span{
+                        position: absolute;
+                        margin: -40px 15px;
+                        width: 25px;
+                        height: 25px;
+                        background-color: $pinkDefault;
+                        border-radius: 50%;
+                        font-size: 12px;
+                        text-align: center;
+                        color: white;
+                        font-weight: 600;
+                    }
+
+                    img:last-child{
+                        margin: 0 0 0 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .lineHeader{
+        background-color: $blackHeader;
+        width: 1461px;
+        .line{
+            margin: 1px 84px 0 82px;
+            width: 1296px;
+            height: 2px;
+            background-color: #333;
+        }
+    }
+
+    .bottomHeader{
+        width: 1461px;
+        height: 70px;
+        background-color: $blackHeader;
+
+       
+        .contentBottomHeader{
+            width: 100%;
+            margin: 0px 84px 0 82px;
+            justify-content: space-between;
+
+    
+            .lineBottomHeader{
+                width: 2px;
+                height: 27px;
+                background-color: #333;
+            }
+
+            a{
+                font-size: 15px;
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+        }
+    }
+  
+}
+
+
+@media(max-width: 1461px){
+    header{
+        
+        .topHeader{
+    
+            width: 1200px;
+    
+            .contentTopHeader{
+                margin: 0 68px 0 62px;
+    
+                .logo{
+                    margin: 33px 0 28px 0;
+    
+                    img{
+                        width: 150px;
+                        height: 44px;
+                    }
+                }
+    
+                .searchBox{
+                    width: 355px;
+                    height: 43px;
+                    margin: 20px 0;
+    
+                    input{
+                        width: 300px;
+                    }
+    
+                    img{
+                        width: 20px;
+                    }
+                }
+    
+                .transport{
+                    width: 120px;
+                    
+                    img{
+                        margin: 44px 5px 44px 0;
+                    }
+    
+                    .text{
+                        margin: 45px 0 40px 0 ;
+                        display: flex;
+                        flex-direction: column;
+    
+                        p{
+                            color: white;
+                            font-weight: 600;
+                        }
+    
+                        .first{
+                            width: 95px;
+                            height: 13px;
+                            font-size: 11px;
+                        }
+    
+                        .second{
+                            width: 95px;
+                            height: 14px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+                .line{
+                    width: 2px;
+                    height: 41px;
+                    margin: 41px 0 35px 0;
+                    background-color: #333;
+                }
+                .contactPhone{
+                    cursor: pointer;
+                    width: 120px;
+    
+                    img{
+                        margin: 0 5px 0 0;
+                    }
+    
+                    .text{
+
+                        .first{
+                            width: 70px;
+                            font-size: 11px;
+                        }
+    
+                        .second{
+                            width: 85px;
+                            font-size: 14px;
+                            letter-spacing: 50;
+                        }
+                    }
+                }
+                .client{
+                    width: 180px;
+    
+                    .user{
+    
+                        img:first-child{
+                            width: 20px
+                        }
+                    }
+    
+                    .heart{
+                        img:first-child{
+                            width: 25px;
+                        }
+                        span{
+                            margin: -35px 20px;
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+    
+                    .shop{
+                        img:first-child{
+                            width: 20px;
+                        }
+                        span{
+                            margin: -35px 13px;
+                            width: 20px;
+                            height: 20px;
+                        }
+    
+                        img:last-child{
+                            margin: 0 0 0 20px;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .lineHeader{
+            width: 1200px;
+            .line{
+                margin: 1px 64px 0 62px;
+                width: 1080px;
+            }
+        }
+    
+        .bottomHeader{
+            width: 1200px;
+            height: 70px;
+           
+            .contentBottomHeader{
+                margin: 0px 64px 0 62px;
+            }
+        }
+      
+    }
+
+}
+
+@media(max-width: 1200px){
+    header{
+        
+        .topHeader{
+            height: 100px;
+            width: 100vw;
+    
+            .contentTopHeader{
+                margin: 0 40px;
+                height: 60px;
+    
+                .searchBox{
+                    width: 245px;
+                    height: 35px;
+                    margin: 20px 0;
+    
+                    input{
+                        width: 230px;
+                        font-size: 15px;
+                        outline: none;
+                    }
+    
+                    img{
+                        width: 18px;
+                    }
+                }
+    
+                .transport{
+                    width: 100px;
+    
+                    img{
+                        width: 40px;
+                        margin: 0 8px 0 0;
+                    }
+                }
+    
+                .line{
+                    height: 35px;
+                }
+    
+                .contactPhone{
+                    width: 100px;
+    
+                    img{
+                        width: 25px;
+                        margin: 0 8px 0 0;
+                    }
+                }
+                .client{
+                    width: 170px;
+    
+                    .user{
+    
+                        img:first-child{
+                            width: 19px
+                        }
+                    }
+    
+                    .heart{
+                        img:first-child{
+                            width: 22px;
+                        }
+                        span{
+                            margin: -30px 18px;
+                            font-size: 11px;
+                        }
+                    }
+    
+                    .shop{
+                        img:first-child{
+                            width: 18px;
+                        }
+                        span{
+                            margin: -30px 13px;                            
+                            font-size: 11px;
+
+                        }
+    
+                        img:last-child{
+                            margin: 0 0 0 20px;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .lineHeader{
+            width: 100vw;
+            .line{
+                margin: 0 40px;
+                width: auto;
+            }
+        }
+    
+        .bottomHeader{
+            width: 100vw;
+            height: 60px;
+           
+            .contentBottomHeader{
+                margin: 0px 40px;
+
+                a{
+                    font-size: 14px;
+                }
+            }
+        }
+      
+    }
+}
+
+@media(max-width: 1024px){
+    header{
+        
+        .topHeader{
+            height: 100px;
+            width: 100vw;
+    
+            .contentTopHeader{
+                margin: 0 40px;
+                height: 60px;
+    
+                .searchBox{
+                    border: 1px white solid;
+                    width: 200px;
+                    height: 30px;
+                    margin: 20px 0;
+                    background-color: transparent;
+                    border-radius: 5px;
+    
+                    input{
+                        color: white;
+                        height: 25px;
+                        width: 150px;
+                        font-size: 13px;
+                        outline: none;
+                        background-color: transparent;
+                    }
+    
+                    img{
+                        width: 18px;
+                    }
+                }
+    
+                .transport{
+                    display: none;
+                }
+    
+                .line{
+                    display: none;
+                }
+    
+                .contactPhone{
+                    display: none;
+                }
+
+                .client{
+                    width: 200px;
+                    justify-content: space-around;
+    
+                    .user{
+    
+                        img:first-child{
+                            width: 19px
+                        }
+                    }
+    
+                    .heart{
+                        img:first-child{
+                            width: 22px;
+                        }
+                        span{
+                            margin: -30px 18px;
+                            font-size: 11px;
+                        }
+                    }
+    
+                    .shop{
+                        img:first-child{
+                            width: 18px;
+                        }
+                        span{
+                            margin: -30px 13px;                            
+                            font-size: 11px;
+
+                        }
+    
+                        img:last-child{
+                            margin: 0 0 0 20px;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .lineHeader{
+            width: 100vw;
+            .line{
+                margin: 0 40px;
+                width: auto;
+            }
+        }
+    
+        .bottomHeader{
+            width: 100vw;
+            height: 50px;
+           
+            .contentBottomHeader{
+                margin: 0px 40px;
+
+                a{
+                    font-size: 13px;
+                }
+            }
+        }
+      
+    }
+}

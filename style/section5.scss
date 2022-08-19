@@ -1,78 +1,16 @@
+@import "colors.scss";
+
 .section5{
+    width: 1461px;
+    background-color: #fefefe;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 75px;
+    
     .boxImg{
         .boxImgContent{
-            width: 1297px;
-            height: 451px;
-            //background-image: linear-gradient(to right, #6aa0b8, #b1e3e1 40%);
             background-image: linear-gradient(to right, #a5173b, #ac1338, #c7254b);
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            align-content: center;
-            justify-content: space-between;
-            border-radius: 8px;
-
-            .text{
-                width: 326px;
-                margin-left: 86px;
-                display: flex;
-                flex-direction: column;
-                gap: 42px;
-                align-items: flex-start;
-                justify-content: center;
-                align-content: center;
-
-                p{
-                    font-size: 36px;
-                    color: white;
-                }
-
-                button{
-                    background-color: transparent;
-                    border: 2px solid white;
-                    width: 163px;
-                    height: 54px;
-                    border-radius: 5px;
-                    font-size: 15px;
-                    color: white;
-                    cursor: pointer;
-                }
-
-            }
-        }
-
     }
 }
-
-@media(max-width: 1400px){
-    .boxImg{
-        .boxImgContent{
-            width: 1080px;
-            height: 400px;
-
-            .text{
-                width: 250px;
-                margin-left: 66px;
-                gap: 42px;
-
-                
-
-                p{
-                    font-size: 30px;
-                    color: white;
-                }
-
-                button{
-                    width: 150px;
-                    height: 45px;
-                }
-
-            }
-
-            img{
-                height: 400px !important;
-            }
-        }
-
-    }
 }

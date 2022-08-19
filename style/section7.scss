@@ -8,88 +8,6 @@
     flex-direction: column;
     align-items: center;
 
-    .boxImg {
-        .boxImgContent4 {
-            width: 1297px;
-            height: 383px;
-            background-image: linear-gradient(to left, #0085c6, #038dd0, #007CC1);
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            align-content: center;
-            justify-content: flex-start;
-            border-radius: 8px;
-
-            .text {
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-                justify-content: center;
-                align-content: center;
-
-                p {
-                    width: 447px;
-                    font-size: 16px;
-                    color: white;
-                }
-
-                p:first-child {
-                    font-size: 30px;
-                    margin-bottom: 23px;
-                }
-
-
-                form {
-                    margin-top: 38px;
-                    width: 546px;
-                    border-radius: 5px;
-                    height: 81px;
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-between;
-                    align-items: center;
-                    background-color: white;
-                    align-content: center;
-
-                    .input {
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: flex-start;
-                        align-items: center;
-                        background-color: white;
-                        align-content: center;
-
-                        img {
-                            margin-left: 23px;
-                        }
-
-                        input {
-                            border: none;
-                            font-size: 16px;
-                            outline: none;
-                            margin-left: 15px;
-                        }
-
-                    }
-
-                    button {
-                        border-radius: 5px;
-                        width: 173px;
-                        height: 60px;
-                        margin-right: 16px;
-                        font-size: 16px;
-                        color: white;
-                        border: none;
-                        background-color: $pinkDefault;
-                    }
-                }
-
-
-            }
-        }
-
-    }
-
     .deals {
         display: flex;
         flex-direction: row;
@@ -100,6 +18,7 @@
         align-content: center;
 
         .deal {
+            margin-top: 50px;
             display: flex;
             flex-direction: column;
             width: 305px;
@@ -124,9 +43,7 @@
             }
         }
     }
-
 }
-
 
 .socialMedia {
     background-color: white;
@@ -163,38 +80,10 @@
     }
 }
 
-@media(max-width: 1400px) {
+@media(max-width: 1461px) {
     .section7 {
         margin: 66px 0 67px 0;
         padding-bottom: 88px;
-
-        .boxImg {
-            .boxImgContent4 {
-                width: 1080px;
-
-                .text {
-
-                    form {
-                        width: 400px;
-                        height: 60px;
-
-                        .input {
-
-                            img {
-                                margin-left: 20px;
-                            }
-                        }
-
-                        button {
-                            width: 150px;
-                            height: 45px;
-                            font-size: 14px;
-                        }
-                    }
-                }
-            }
-
-        }
 
         .deals {
             width: 1080px;
@@ -204,7 +93,6 @@
                 height: 180px;
             }
         }
-
     }
 
     .images {
@@ -215,6 +103,36 @@
             border: 0;
             width: 171px;
             height: 171px;
+        }
+    }
+
+}
+
+@media(max-width: 1200px) {
+    .section7 {
+        margin-bottom: 44px;
+        padding-bottom: 70px;
+
+        .deals {
+            width: auto;
+            margin: 20px;
+
+            .deal {
+                width: 24vw;
+                height: 180px;
+            }
+        }
+
+    }
+
+    .images {
+        width: 100vw;
+
+        img {
+            margin: 0;
+            border: 0;
+            width: 14.28vw;
+            height: 14.28vw;
         }
     }
 
