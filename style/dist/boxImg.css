@@ -296,3 +296,48 @@
     font-size: 12px;
   }
 }
+@media (max-width: 580px) {
+  .boxImg .boxImgContent {
+    width: 100vw !important;
+    height: 260px !important;
+    border-radius: 0px;
+  }
+  .boxImg .boxImgContent .text {
+    width: 100% !important;
+    margin-left: 0px !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .boxImg .boxImgContent .text p {
+    width: 80%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .boxImg .boxImgContent .text button {
+    width: 120px !important;
+    height: 45px !important;
+  }
+  .boxImg .boxImgContent img {
+    display: none;
+  }
+  .boxImg .boxImgContent4 {
+    border-radius: 0px;
+    margin: 0;
+    width: 100vw !important;
+    height: 260px !important;
+  }
+  .boxImg .boxImgContent4 .img {
+    display: none;
+  }
+  .boxImg .boxImgContent4 .text {
+    width: 100%;
+    align-content: center;
+    align-items: center;
+  }
+  .boxImg .boxImgContent4 .text p {
+    font-size: 18px !important;
+  }
+  .boxImg .boxImgContent4 .text form {
+    width: 300px;
+  }
+}

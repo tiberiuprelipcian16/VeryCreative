@@ -296,6 +296,7 @@ header {
 
         }
     }
+    
 
 }
 
@@ -768,6 +769,161 @@ header {
 
             .contentBottomHeaderHamburger {
                 display: block;
+
+                .menu-button-container {
+                    display: flex;
+                }
+
+                .menu {
+                    position: absolute;
+                    top: 0;
+                    margin-top: 132px;
+                    left: 0;
+                    flex-direction: column;
+                    width: 100%;
+                }
+
+                #menu-toggle~.menu a {
+                    height: 0;
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+                }
+
+                #menu-toggle:checked~.menu a {
+                    font-size: 14px;
+                    border: 1px solid #333;
+                    height: 15px;
+                    padding: 10px;
+                    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+                }
+
+                .menu>a {
+                    display: flex;
+                    justify-content: center;
+                    margin: 0;
+                    padding: 0.5em 0;
+                    width: 100%;
+                    color: white;
+                    background-color: #1c1c1c;
+                }
+
+                .menu>a:not(:last-child) {
+                    border-bottom: 1px solid #333;
+                }
+
+            }
+        }
+
+    }
+}
+
+@media(max-width: 580px) {
+    header {
+
+        .topHeader {
+            min-height: 80px;
+
+            .contentTopHeader {
+                margin: 40px;
+                
+
+                .logo {
+                    img {
+                        width: 100px;
+                        height: 30px;
+                    }
+                }
+
+                .none{
+                    display: none;
+                }
+
+                .client {
+                    width: 150px;
+
+                    .user {
+
+                        img {
+                            width: 10px
+                        }
+
+                        img:first-child {
+                            width: 17px
+                        }
+                    }
+
+                    .heart {
+                        img:first-child {
+                            width: 20px;
+                        }
+
+                        span {
+                            width: 17px;
+                            height: 17px;
+                            margin: -28px 16px;
+                            font-size: 10px;
+                        }
+                    }
+
+                    .shop {
+                        img:first-child {
+                            width: 17px;
+                        }
+
+                        span {
+                            width: 17px;
+                            height: 17px;
+                            font-size: 10px;
+
+                        }
+
+                        img:last-child {
+                            width: 10px;
+                            margin: 0 0 0 15px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .bottomHeader {
+
+            .contentBottomHeader {
+                display: none;
+            }
+
+            .contentBottomHeaderHamburger {
+                display: block;
+
+                
+                .hamburgerSearch{
+                    background-image: linear-gradient(to left, #33333350, transparent);
+                    border-radius: 0px;
+                    width: 200px;
+                    height: 50px;
+                    margin: 0px;
+                    background-color: transparent;
+                    flex-direction: row;
+                    justify-content: space-between;
+    
+                    input {
+                        background-color: transparent;
+                        outline: none;
+                        border: none;
+                        margin: 0;
+                        height: 30px;
+                        width: 164px !important;
+                        font-size: 15px;
+                    }
+    
+                    img {
+                        cursor: pointer;
+                        margin: 0 10px 0 0;
+                        width: 20px;
+                    }
+                }
 
                 .menu-button-container {
                     display: flex;

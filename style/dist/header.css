@@ -596,3 +596,115 @@ header .bottomHeader .contentBottomHeaderHamburger #menu-toggle:checked + .menu-
     border-bottom: 1px solid #333;
   }
 }
+@media (max-width: 580px) {
+  header .topHeader {
+    min-height: 80px;
+  }
+  header .topHeader .contentTopHeader {
+    margin: 40px;
+  }
+  header .topHeader .contentTopHeader .logo img {
+    width: 100px;
+    height: 30px;
+  }
+  header .topHeader .contentTopHeader .none {
+    display: none;
+  }
+  header .topHeader .contentTopHeader .client {
+    width: 150px;
+  }
+  header .topHeader .contentTopHeader .client .user img {
+    width: 10px;
+  }
+  header .topHeader .contentTopHeader .client .user img:first-child {
+    width: 17px;
+  }
+  header .topHeader .contentTopHeader .client .heart img:first-child {
+    width: 20px;
+  }
+  header .topHeader .contentTopHeader .client .heart span {
+    width: 17px;
+    height: 17px;
+    margin: -28px 16px;
+    font-size: 10px;
+  }
+  header .topHeader .contentTopHeader .client .shop img:first-child {
+    width: 17px;
+  }
+  header .topHeader .contentTopHeader .client .shop span {
+    width: 17px;
+    height: 17px;
+    font-size: 10px;
+  }
+  header .topHeader .contentTopHeader .client .shop img:last-child {
+    width: 10px;
+    margin: 0 0 0 15px;
+  }
+  header .bottomHeader .contentBottomHeader {
+    display: none;
+  }
+  header .bottomHeader .contentBottomHeaderHamburger {
+    display: block;
+  }
+  header .bottomHeader .contentBottomHeaderHamburger .hamburgerSearch {
+    background-image: linear-gradient(to left, #33333350, transparent);
+    border-radius: 0px;
+    width: 200px;
+    height: 50px;
+    margin: 0px;
+    background-color: transparent;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  header .bottomHeader .contentBottomHeaderHamburger .hamburgerSearch input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    margin: 0;
+    height: 30px;
+    width: 164px !important;
+    font-size: 15px;
+  }
+  header .bottomHeader .contentBottomHeaderHamburger .hamburgerSearch img {
+    cursor: pointer;
+    margin: 0 10px 0 0;
+    width: 20px;
+  }
+  header .bottomHeader .contentBottomHeaderHamburger .menu-button-container {
+    display: flex;
+  }
+  header .bottomHeader .contentBottomHeaderHamburger .menu {
+    position: absolute;
+    top: 0;
+    margin-top: 132px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+  }
+  header .bottomHeader .contentBottomHeaderHamburger #menu-toggle ~ .menu a {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  header .bottomHeader .contentBottomHeaderHamburger #menu-toggle:checked ~ .menu a {
+    font-size: 14px;
+    border: 1px solid #333;
+    height: 15px;
+    padding: 10px;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  header .bottomHeader .contentBottomHeaderHamburger .menu > a {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: white;
+    background-color: #1c1c1c;
+  }
+  header .bottomHeader .contentBottomHeaderHamburger .menu > a:not(:last-child) {
+    border-bottom: 1px solid #333;
+  }
+}

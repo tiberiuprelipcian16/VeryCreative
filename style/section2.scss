@@ -228,3 +228,29 @@
         }
     }
 }
+
+@media(max-width: 580px) {
+    .section2 {
+
+        .grid-container {
+            width: 100% !important;
+            grid-template-columns: 40vw 40vw !important;
+            gap: 15px !important;
+            margin: 20px 20px;
+
+            .item {
+                width: 40vw !important;
+                height: 130px !important;
+                font-size: 15px;
+
+                p {
+                    font-size: 15px !important;
+                }
+
+                img{
+                    display: none;
+                }
+            }
+        }
+    }
+}
