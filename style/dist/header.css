@@ -558,6 +558,9 @@ header .bottomHeader .contentBottomHeaderHamburger #menu-toggle:checked + .menu-
   header .bottomHeader .contentBottomHeaderHamburger {
     display: block;
   }
+  header .bottomHeader .contentBottomHeaderHamburger .hamburgerSearch {
+    display: none;
+  }
   header .bottomHeader .contentBottomHeaderHamburger .menu-button-container {
     display: flex;
   }
@@ -646,7 +649,11 @@ header .bottomHeader .contentBottomHeaderHamburger #menu-toggle:checked + .menu-
   header .bottomHeader .contentBottomHeaderHamburger {
     display: block;
   }
+  header .bottomHeader .contentBottomHeaderHamburger .text {
+    display: none;
+  }
   header .bottomHeader .contentBottomHeaderHamburger .hamburgerSearch {
+    display: flex;
     background-image: linear-gradient(to left, #33333350, transparent);
     border-radius: 0px;
     width: 200px;

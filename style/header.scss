@@ -770,6 +770,10 @@ header {
             .contentBottomHeaderHamburger {
                 display: block;
 
+                .hamburgerSearch{
+                    display: none;
+                }
+
                 .menu-button-container {
                     display: flex;
                 }
@@ -897,8 +901,12 @@ header {
             .contentBottomHeaderHamburger {
                 display: block;
 
+                .text{
+                    display: none;
+                }
                 
                 .hamburgerSearch{
+                    display: flex;
                     background-image: linear-gradient(to left, #33333350, transparent);
                     border-radius: 0px;
                     width: 200px;

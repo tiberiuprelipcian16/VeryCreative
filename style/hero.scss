@@ -813,17 +813,18 @@
             width: 100vw;
             height: auto;
             justify-content: space-around;
-            margin: 20px 0;
+            margin: 0px;
 
             .topHero {
                 .topHeroContent {
-                    margin-top: 0;
+                    margin-top: 90px !important;
                     width: 100vw;
                     height: auto;
 
                     .carousel {
+                        margin-top: 0px;
                         justify-content: space-evenly;
-                        height: 395px;
+                        height: 414px;
                        
                         .s1 {
                             transform: rotate(-90deg);
@@ -905,7 +906,7 @@
             }
 
             .middleHero {
-                margin-top: 5%;
+                margin-top: 15%;
 
                 .middleHeroContent {
                     padding: 15px 0;
@@ -950,6 +951,32 @@
                     }
                 }
             }
+        }
+    }
+
+    @media(max-width: 490px) {
+
+        .hero {
+
+            .topHero {
+                .topHeroContent {
+                    margin-top: calc(100vw/12) !important;
+                }
+            }
+
+        }
+    }
+
+    @media(max-width: 420px) {
+
+        .hero {
+
+            .topHero {
+                .topHeroContent {
+                    margin-top: 0px !important;
+                }
+            }
+
         }
     }
 }
