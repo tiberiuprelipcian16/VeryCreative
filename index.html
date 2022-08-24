@@ -9,29 +9,47 @@
     <meta name="theme-color" content="#1c1c1c"/>
     <title>VeryCreative</title>
 
-
+    <!-- Fisierul fiind destul de mare, am folosit "preload" pentru a ma asigura ca "style.css" va fi prioritizat. Pagina poate functiona bine si fara. Aceasta a fost si una dintre recomandarile functiei "LightHouse"-->
     <link rel="preload" href="./style/dist/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="./style/dist/style.css"></noscript>
 
-    <link rel="stylesheet" type="text/css" href="./style/dist/header.css">
-    <link rel="stylesheet" type="text/css" href="./style/dist/hero.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./style/dist/style.css"> -->
+
+    <!-- or -->
+
+    <!--
+    <link rel="stylesheet" type="text/css" href="./style/dist/reset.css">
+    <link rel="stylesheet" type="text/css" href="./style/dist/flex.css">
     <link rel="stylesheet" type="text/css" href="./style/dist/boxImg.css">
     <link rel="stylesheet" type="text/css" href="./style/dist/comun.css">
-    <link rel="stylesheet" type="text/css" href="./style/dist/section4.css">
+
+    <link rel="stylesheet" type="text/css" href="./style/dist/header.css">
+
+    <link rel="stylesheet" type="text/css" href="./style/dist/hero.css">
+    <link rel="stylesheet" type="text/css" href="./style/dist/section1.css">
     <link rel="stylesheet" type="text/css" href="./style/dist/section2.css">
+    <link rel="stylesheet" type="text/css" href="./style/dist/section3.css">
+    <link rel="stylesheet" type="text/css" href="./style/dist/section4.css">
+    <link rel="stylesheet" type="text/css" href="./style/dist/section5.css">
     <link rel="stylesheet" type="text/css" href="./style/dist/section6.css">
-    <link rel="stylesheet" type="text/css" href="./style/dist/footer.css">
     <link rel="stylesheet" type="text/css" href="./style/dist/section7.css">
+
+    <link rel="stylesheet" type="text/css" href="./style/dist/footer.css">
+    -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- FavIcon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
+
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100&family=Montserrat:ital,wght@1,200&family=Quicksand:wght@300&display=swap"
         rel="stylesheet" type="text/css">
 </head>
 
 <body>
+    <!--Icon-urile sunt inlocuite cu imagini. Sunt functionale la fel ca iconurile reale. Motivul este acela ca nu am avut de unde sa stiu ce librarie sa folosesc pentru ele, nu era specificat-->
     <header class="flex22 fC">
         <div class=" flex22 fR topHeader">
             <div class="flex22 fR contentTopHeader">

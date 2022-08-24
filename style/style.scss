@@ -1,17 +1,26 @@
+//fisierul standard de resetare a stilizarii browserului
 @import "reset.scss";
+
+//am condiderat o matrice 3x3 ca fiind punctele atinse de pozitionarea pe care trebuie s-o faca flex
 @import "flex.scss";
+
 @import "colors.scss";
-// @import "header.scss";
-// @import "hero.scss";
-// @import "section2.scss";
+@import "header.scss";
+@import "hero.scss";
+@import "section2.scss";
 @import "section3.scss";
-//@import "section4.scss";
+@import "section4.scss";
 @import "section5.scss";
-// @import "section6.scss";
-// @import "section7.scss";
-// @import "footer.scss";
-// @import "boxImg.scss";
-// @import "comun.scss";
+@import "section6.scss";
+@import "section7.scss";
+@import "footer.scss";
+
+//Pentru a evita sa scriu acelesi cod de mai multe ori, aici am cuprinse toate box-urile cu imagine(stilizarea)
+@import "boxImg.scss"; 
+
+//Aici sunt cuprinse toate sectiunile cu produse(stilizarea)
+@import "comun.scss";
+
 html{
     font-size: 10px;
     scroll-behavior: smooth;
