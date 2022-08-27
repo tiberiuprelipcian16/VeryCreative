@@ -421,7 +421,7 @@
     height: 30px;
   }
 }
-@media (max-width: 750px) {
+@media (max-width: 580px) {
   .sectionProduct {
     width: 100vw;
     align-items: center;

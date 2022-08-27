@@ -98,35 +98,36 @@
                         height: 372px;
                     }
 
-                    .point {
-                        align-self: flex-end;
-                        position: relative;
-                        z-index: 3;
-                        flex-wrap: nowrap;
-                        justify-content: space-between;
-                        gap: 9px;
-                        margin: -10px 640px;
-                        width: 63px;
-                        height: 15px;
-
-                        span {
-                            width: 15px;
-                            height: 11px;
-                            background-color: black;
-                            border: white 2px solid;
-                            border-radius: 50%;
-                        }
-
-                        .white {
-                            background-color: white;
-                        }
-                    }
-
                     .logoCarousel {
                         align-self: flex-end;
                         margin: 0 22px -20px 48px;
                     }
 
+                }
+
+                .point {
+                    align-self: flex-end;
+                    position: absolute;
+                    z-index: 3;
+                    flex-wrap: nowrap;
+                    justify-content: space-between;
+                    gap: 9px;
+                    margin: 15px 640px;
+                    width: 63px;
+                    height: 15px;
+
+                    .dot {
+                        cursor: pointer;
+                        width: 15px;
+                        height: 11px;
+                        background-color: black;
+                        border: white 2px solid;
+                        border-radius: 50%;
+                    }
+
+                    .active, .dot:hover {
+                        background-color: white;
+                    }
                 }
 
                 .carousel::before {
@@ -221,12 +222,13 @@
                     .item {
                         width: 242px;
                         height: 296px;
-                        background-image: url("../../assets/item.png");
                         display: flex;
                         flex-direction: row;
                         align-items: flex-end;
                         justify-content: center;
                         border-radius: 8px;
+                        
+                        background-image: url("../../assets/item.png");
 
                         p {
                             margin: 0 0 36px 0;
@@ -236,6 +238,25 @@
                             max-width: 172px;
                         }
                     }
+/*
+                    .item1{
+                        background-size: 242px 296px;
+                        width: 242px;
+                        height: 296px;
+                        background-image: url("../../assets/item1.svg");
+                    }
+                    .item2{
+                        background-image: url("../../assets/item2.svg");
+                    }
+                    .item3{
+                        background-image: url("../../assets/item3.svg");
+                    }
+                    .item4{
+                        background-image: url("../../assets/item4.svg");
+                    }
+                    .item5{
+                        background-image: url("../../assets/item5.svg");
+                    }*/
                 }
             }
         }

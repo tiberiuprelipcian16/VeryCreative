@@ -1,0 +1,108 @@
+<div class="flex22 fR topHeroContent">
+    <div class="flex22 fR carousel">
+        <div class="flex21 fC s1">
+            <p>Marabu Graphix<br /> Fineliner Color
+                <br>Slide 1
+            </p>
+            <button>Descopera mai mult</button>
+        </div>
+
+        <div class="flex22 fC s2">
+            <div class="flex22 fC circle">
+                <p class="first">109,00 Lei</p>
+                <p class="second">89,00 Lei</p>
+            </div>
+            <img src="./assets/markers.svg" alt="Markers" />
+        </div>
+
+        <div class="flex22 fC s3">
+            <img src="./assets/robot.svg" alt="Robot" />
+        </div>
+
+        <img class="logoCarousel" src="./assets/logoHero.svg" alt="Logo Hero" />
+
+
+
+
+    </div>
+
+    <div class="flex22 fR carousel">
+        <div class="flex21 fC s1">
+            <p>Marabu Graphix<br /> Fineliner Color
+                <br>Slide 2
+            </p>
+            <button>Descopera mai mult</button>
+        </div>
+
+        <div class="flex22 fC s2">
+            <div class="flex22 fC circle">
+                <p class="first">109,00 Lei</p>
+                <p class="second">89,00 Lei</p>
+            </div>
+            <img src="./assets/markers.svg" alt="Markers" />
+        </div>
+
+        <div class="flex22 fC s3">
+            <img src="./assets/robot.svg" alt="Robot" />
+        </div>
+
+        <img class="logoCarousel" src="./assets/logoHero.svg" alt="Logo Hero" />
+
+
+
+
+    </div>
+
+    <div class="flex22 fR carousel">
+        <div class="flex21 fC s1">
+            <p>Marabu Graphix<br /> Fineliner Color<br>Slide 3</p>
+            <button>Descopera mai mult</button>
+
+        </div>
+
+        <div class="flex22 fC s2">
+            <div class="flex22 fC circle">
+                <p class="first">109,00 Lei</p>
+                <p class="second">89,00 Lei</p>
+            </div>
+            <img src="./assets/markers.svg" alt="Markers" />
+        </div>
+
+        <div class="flex22 fC s3">
+            <img src="./assets/robot.svg" alt="Robot" />
+        </div>
+
+        <img class="logoCarousel" src="./assets/logoHero.svg" alt="Logo Hero" />
+
+
+
+
+    </div>
+    <div class="flex22 fR point">
+        <span onclick="currentSlide(1)" class="dot active"></span>
+        <span onclick="currentSlide(2)" class="dot"></span>
+        <span onclick="currentSlide(3)" class="dot"></span>
+    </div>
+
+    <div class="flex22 social">
+        <div class="insta">
+            <img src="./assets/insta.svg" alt="Instagram">
+            <p>Instagram</p>
+        </div>
+
+        <span></span>
+
+        <div class="facebook">
+            <img src="./assets/facebook.svg" alt="Facebook">
+            <p>Facebook</p>
+        </div>
+
+        <span></span>
+
+        <div class="twitter">
+            <img src="./assets/twitter.svg" alt="Twitter">
+            <p>Twitter</p>
+        </div>
+    </div>
+
+</div>
