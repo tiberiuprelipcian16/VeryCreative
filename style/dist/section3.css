@@ -308,3 +308,12 @@
     background-color: #282828;
   }
 }
+@media (max-width: 750px) {
+  .section3 {
+    background-color: #242526 !important;
+  }
+
+  .sectionProduct {
+    background-color: #242526 !important;
+  }
+}

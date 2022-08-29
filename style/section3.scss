@@ -11,7 +11,7 @@
 
 .boxImg {
     .boxImgContent {
-        background-image: linear-gradient(to right, #6aa0b8, #70b1bc, #a7d9db 40%, #b1e3e1); 
+        background-image: linear-gradient(to right, #6aa0b8, #70b1bc, #a7d9db 40%, #b1e3e1);
     }
 }
 
@@ -345,7 +345,8 @@
                             height: 30px;
                         }
                     }
-                    img{
+
+                    img {
                         width: 145.5px;
                     }
 
@@ -357,11 +358,11 @@
                 }
 
                 .price {
-                    .old{
+                    .old {
                         font-size: 11px;
                     }
 
-                    .new{
+                    .new {
                         font-size: 13px;
                     }
                 }
@@ -390,6 +391,18 @@
             }
 
         }
+    }
+
+}
+
+@media(max-width: 750px) {
+    .section3 {
+        background-color: #242526 !important;
+    }
+
+    .sectionProduct {
+        background-color: #242526 !important;
+
     }
 
 }

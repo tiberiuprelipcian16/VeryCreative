@@ -1,27 +1,27 @@
 @import "colors.scss";
 
-.section4{
+.section4 {
     width: 1461px;
     background-color: #fefefe;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 75px;
-    
-    .sectionProduct2{
 
-        p{
+    .sectionProduct2 {
+
+        p {
             font-size: 24px;
             margin-top: none;
         }
 
-        .newProducts{
+        .newProducts {
             display: flex;
             gap: 24px;
             flex-direction: row;
             margin-top: 33px;
 
-            .product{
+            .product {
                 border: 1px solid #ededed;
                 width: 306px;
                 height: 408px;
@@ -30,14 +30,14 @@
                 align-items: center;
                 gap: 23px;
 
-                .image{
+                .image {
                     justify-self: space-between;
                     width: 306px;
                     height: 310px;
                     border: none;
                 }
 
-                p{
+                p {
                     margin: 9px 0 0 0;
                     width: 170px;
                     height: 40px;
@@ -46,34 +46,34 @@
                 }
 
 
-                
+
             }
         }
     }
 }
 
-@media(max-width: 1461px){
-    .sectionProduct2{
+@media(max-width: 1461px) {
+    .sectionProduct2 {
 
-        p{
+        p {
             font-size: 22px;
         }
 
-        .newProducts{
+        .newProducts {
             gap: 20px;
 
-            .product{
+            .product {
                 width: 250px !important;
                 height: 350px !important;
                 gap: 0px !important;
 
-                .image{
+                .image {
                     justify-self: space-between;
                     width: 250px !important;
                     height: 270px !important;
                     border: none;
-                    
-                    img{
+
+                    img {
                         width: 250px;
                     }
                 }
@@ -82,35 +82,40 @@
     }
 }
 
-@media(max-width: 1200px){
-    .sectionProduct2, .sectionProduct3{
+@media(max-width: 1200px) {
+
+    .sectionProduct2,
+    .sectionProduct3 {
         width: 100vw;
-        
-        p{
+
+        p {
             font-size: 22px;
             margin: 0 20px;
         }
 
-        .newProducts{
+        .newProducts {
             width: auto;
             gap: 15px;
             margin: 0 20px;
 
-            .product{
+            .product {
                 width: calc(100vh/4 - 10px) !important;
-                height: 350px ;
-                gap: 0px ;
+                height: 350px;
+                gap: 0px;
                 border-radius: 8px;
+                
+                border: 1px solid #242526;
 
-                .image{
+                .image {
                     margin: auto;
                     justify-self: space-between;
-                    width:  auto !important;
+                    width: auto !important;
                     height: 270px !important;
                     border: none;
-                    
-                    img{
+
+                    img {
                         width: 226px;
+                        background-color: #242526;
                     }
                 }
             }
@@ -118,22 +123,22 @@
     }
 }
 
-@media(max-width: 1024px){
+@media(max-width: 1024px) {
 
-    .section4{
+    .section4 {
         gap: 20px !important;
     }
 
-    .sectionProduct2{
+    .sectionProduct2 {
         width: 100vw;
-        
-        p{
+
+        p {
             text-align: center;
             font-size: 22px;
             margin: 20px 0 !important;
         }
 
-        .newProducts{
+        .newProducts {
             display: grid !important;
             grid-template-columns: auto auto !important;
             justify-items: center !important;
@@ -141,18 +146,18 @@
             justify-content: center !important;
             align-content: center !important;
 
-            .product{
+            .product {
                 width: calc(100vh/4.5 - 10px) !important;
                 height: auto !important;
                 border-radius: 8px;
 
-                .image{
+                .image {
                     margin: 0;
-                    width:  auto !important;
+                    width: auto !important;
                     height: auto !important;
                     border: none !important;
-                    
-                    img{
+
+                    img {
                         width: calc(100vh/4.5 - 10px) !important;
                         height: 270px;
                     }
@@ -162,28 +167,34 @@
     }
 }
 
-@media(max-width: 750px){
+@media(max-width: 750px) {
 
-    .sectionProduct2{
 
-        .newProducts{
 
-            .product{
+    .sectionProduct2 {
+
+        p{
+            border-color: #d2d2d2 !important; 
+        }
+
+        .newProducts {
+
+            .product {
                 width: calc(100vh/4.5 - 10px) !important;
                 height: 300px !important;
                 border-radius: 8px;
 
-                p{
+                p {
                     font-size: 15px !important;
                 }
 
-                .image{
+                .image {
                     margin: 0;
-                    width:  auto !important;
+                    width: auto !important;
                     height: 230px !important;
                     border: none !important;
-                    
-                    img{
+
+                    img {
                         width: calc(100vh/4.5 - 10px) !important;
                         height: 230px;
                     }
@@ -193,11 +204,11 @@
     }
 }
 
-@media(max-width: 580px){
+@media(max-width: 580px) {
 
-    .sectionProduct2{
-        
-        >p{
+    .sectionProduct2 {
+
+        >p {
             border-top: 2px solid #1c1c1c;
             border-bottom: 2px solid #1c1c1c;
             text-align: center;
@@ -206,16 +217,22 @@
             padding: 20px;
         }
 
-        .newProducts{
-            
+        .newProducts {
+
             grid-template-columns: 50vw !important;
 
-            .product{
+            .product {
+                border: none;
+                background: #d2d2d2;
                 width: 50vw !important;
 
-                .image{
+                p {
+                    color: #242526;
+                }
 
-                    img{
+                .image {
+
+                    img {
                         width: 50vw !important;
                     }
                 }

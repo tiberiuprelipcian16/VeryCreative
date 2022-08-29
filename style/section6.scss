@@ -256,6 +256,8 @@
             margin: 0;
     
             .info{
+                
+                border-color: #d2d2d2 !important;
     
                 p{
                     margin: 20px !important;
@@ -304,7 +306,7 @@
     }
 }
 
-@media(max-width: 750px){
+@media(max-width: 580px){
     .section6{
         width: 100vw;
         margin: 30px 20px;
@@ -317,6 +319,7 @@
 
                 border-top: 2px solid #1c1c1c;
                 border-bottom: 2px solid #1c1c1c;
+                border-color: #d2d2d2 !important;
                 margin: 0 20px;
                 
                 p{

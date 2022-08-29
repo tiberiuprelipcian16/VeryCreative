@@ -41,6 +41,9 @@
 .socialMedia {
   background-color: white;
   display: flex;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 44px;
   flex-direction: column;
   align-items: center;
   gap: 23px;
@@ -58,8 +61,8 @@
 
 .images {
   background-color: white;
-  margin-top: 44px;
   display: flex;
+  margin: 0px !important;
   flex-direction: row;
   width: 1461px;
 }
@@ -118,15 +121,23 @@
   }
 }
 @media (max-width: 750px) {
+  .container {
+    background-color: #242526 !important;
+  }
+
   .section7 {
-    margin: 0 0 20px 0;
+    margin: 0 0 0px 0;
     padding-bottom: 50px;
+    background-image: linear-gradient(to top, #242526, #242526);
   }
   .section7 .deals {
     width: auto;
     margin: 20px;
   }
   .section7 .deals .deal {
+    background-color: #d2d2d2;
+    padding: 30px 10px;
+    padding-bottom: 0px;
     width: 24vw;
     height: 180px;
   }
@@ -141,13 +152,26 @@
     font-weight: bold;
   }
 
+  .socialMedia {
+    background-color: #242526 !important;
+  }
+  .socialMedia p {
+    color: #d2d2d2;
+  }
+  .socialMedia p img {
+    background-color: #d2d2d2;
+    border-radius: 50%;
+    padding: 2px;
+  }
+
   .images {
     width: 100vw;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: #242526 !important;
   }
   .images img {
-    border: 1px solid white;
+    border: 1px solid #242526;
     margin: 0;
     width: calc(25vw - 2px);
     height: 25vw;

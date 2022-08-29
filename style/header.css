@@ -1,0 +1,718 @@
+header {
+  font-family: "Quicksand", sans-serif !important;
+}
+header .topHeader {
+  width: 1461px;
+  height: 117px;
+  background-color: #1c1c1c;
+}
+header .topHeader .contentTopHeader {
+  background-color: #1c1c1c;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  margin: 0 78px 0 82px;
+}
+header .topHeader .contentTopHeader .logo {
+  margin: 33px 0 28px 0;
+}
+header .topHeader .contentTopHeader .logo img {
+  width: 197px;
+  height: 54px;
+}
+header .topHeader .contentTopHeader .searchBox {
+  border-radius: 9px;
+  width: 455px;
+  height: 63px;
+  margin: 27px 0;
+  background-color: white;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header .topHeader .contentTopHeader .searchBox input {
+  outline: none;
+  border: none;
+  margin: 0 0 0 10px;
+  height: 30px;
+  width: 380px;
+  font-size: 16px;
+}
+header .topHeader .contentTopHeader .searchBox img {
+  cursor: pointer;
+  margin: 0 10px 0 0;
+}
+header .topHeader .contentTopHeader .transport {
+  width: 149px;
+}
+header .topHeader .contentTopHeader .transport img {
+  margin: 44px 5px 44px 0;
+}
+header .topHeader .contentTopHeader .transport .text {
+  margin: 45px 0 40px 0;
+  display: flex;
+  flex-direction: column;
+}
+header .topHeader .contentTopHeader .transport .text p {
+  color: white;
+  font-weight: 600;
+}
+header .topHeader .contentTopHeader .transport .text .first {
+  width: 111px;
+  height: 13px;
+  font-size: 13px;
+}
+header .topHeader .contentTopHeader .transport .text .second {
+  width: 103px;
+  height: 14px;
+  font-size: 16px;
+}
+header .topHeader .contentTopHeader .line {
+  width: 2px;
+  height: 41px;
+  margin: 41px 0 35px 0;
+  background-color: #333;
+}
+header .topHeader .contentTopHeader .contactPhone {
+  cursor: pointer;
+  width: 149px;
+}
+header .topHeader .contentTopHeader .contactPhone img {
+  margin: 0 5px 0 0;
+}
+header .topHeader .contentTopHeader .contactPhone .text p {
+  color: white;
+  font-weight: 600;
+}
+header .topHeader .contentTopHeader .contactPhone .text .first {
+  width: 91px;
+  height: 12px;
+  font-size: 13px;
+}
+header .topHeader .contentTopHeader .contactPhone .text .second {
+  width: 103px;
+  height: 14px;
+  font-size: 16px;
+  letter-spacing: 50;
+}
+header .topHeader .contentTopHeader .client {
+  cursor: pointer;
+  justify-content: space-between;
+  width: 201px;
+  height: 34px;
+}
+header .topHeader .contentTopHeader .client .user img:first-child {
+  margin: 0 5px 0 0;
+}
+header .topHeader .contentTopHeader .client .heart span {
+  position: absolute;
+  margin: -40px 22px;
+  width: 25px;
+  height: 25px;
+  background-color: #b52f51;
+  border-radius: 50%;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+header .topHeader .contentTopHeader .client .shop span {
+  position: absolute;
+  margin: -40px 15px;
+  width: 25px;
+  height: 25px;
+  background-color: #b52f51;
+  border-radius: 50%;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+header .topHeader .contentTopHeader .client .shop img:last-child {
+  margin: 0 0 0 20px;
+}
+header .lineHeader {
+  background-color: #1c1c1c;
+  width: 1461px;
+}
+header .lineHeader .line {
+  margin: 1px 84px 0 82px;
+  width: 1296px;
+  height: 2px;
+  background-color: #333;
+}
+header .bottomHeader {
+  width: 1461px;
+  height: 73px;
+  background-color: #1c1c1c;
+}
+header .bottomHeader .contentBottomHeader {
+  width: 100%;
+  margin: 0px 84px 0 82px;
+  justify-content: space-between;
+}
+header .bottomHeader .contentBottomHeader .lineBottomHeader {
+  width: 2px;
+  height: 27px;
+  background-color: #333;
+}
+header .bottomHeader .contentBottomHeader a {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+header .bottomHeader .contentBottomHeaderHamburger {
+  display: none;
+  width: 100%;
+  margin: 0 40px;
+}
+header .bottomHeader .contentBottomHeaderHamburger h2 {
+  vertical-align: center;
+  text-align: center;
+}
+header .bottomHeader .contentBottomHeaderHamburger .top-nav {
+  width: 100%;
+  justify-content: space-between;
+  background-color: transparent;
+  color: #FFF;
+  height: 30px;
+}
+header .bottomHeader .contentBottomHeaderHamburger div {
+  font-size: 15px;
+}
+header .bottomHeader .contentBottomHeaderHamburger .menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+header .bottomHeader .contentBottomHeaderHamburger .menu > a {
+  z-index: 5;
+  margin: 0 1rem;
+  overflow: hidden;
+  text-decoration: none;
+}
+header .bottomHeader .contentBottomHeaderHamburger .menu-button-container {
+  display: none;
+  height: 100%;
+  width: 25px;
+  cursor: pointer;
+}
+header .bottomHeader .contentBottomHeaderHamburger #menu-toggle {
+  display: none;
+}
+header .bottomHeader .contentBottomHeaderHamburger .menu-button,
+header .bottomHeader .contentBottomHeaderHamburger .menu-button::before,
+header .bottomHeader .contentBottomHeaderHamburger .menu-button::after {
+  display: block;
+  background-color: #fff;
+  position: absolute;
+  height: 2px;
+  width: 25px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+header .bottomHeader .contentBottomHeaderHamburger .menu-button::before {
+  content: "";
+  margin-top: -8px;
+}
+header .bottomHeader .contentBottomHeaderHamburger .menu-button::after {
+  content: "";
+  margin-top: 8px;
+}
+header .bottomHeader .contentBottomHeaderHamburger #menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+header .bottomHeader .contentBottomHeaderHamburger #menu-toggle:checked + .menu-button-container .menu-button {
+  background: rgba(255, 255, 255, 0);
+}
+header .bottomHeader .contentBottomHeaderHamburger #menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
+
+@media (max-width: 1461px) {
+  header .topHeader {
+    width: 1200px;
+  }
+  header .topHeader .contentTopHeader {
+    margin: 0 68px 0 62px;
+  }
+  header .topHeader .contentTopHeader .logo {
+    margin: 33px 0 28px 0;
+  }
+  header .topHeader .contentTopHeader .logo img {
+    width: 150px;
+    height: 44px;
+  }
+  header .topHeader .contentTopHeader .searchBox {
+    width: 355px;
+    height: 43px;
+    margin: 20px 0;
+  }
+  header .topHeader .contentTopHeader .searchBox input {
+    width: 300px;
+  }
+  header .topHeader .contentTopHeader .searchBox img {
+    width: 20px;
+  }
+  header .topHeader .contentTopHeader .transport {
+    width: 120px;
+  }
+  header .topHeader .contentTopHeader .transport img {
+    margin: 44px 5px 44px 0;
+  }
+  header .topHeader .contentTopHeader .transport .text {
+    margin: 45px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  header .topHeader .contentTopHeader .transport .text p {
+    color: white;
+    font-weight: 600;
+  }
+  header .topHeader .contentTopHeader .transport .text .first {
+    width: 95px;
+    height: 13px;
+    font-size: 11px;
+  }
+  header .topHeader .contentTopHeader .transport .text .second {
+    width: 95px;
+    height: 14px;
+    font-size: 14px;
+  }
+  header .topHeader .contentTopHeader .line {
+    width: 2px;
+    height: 41px;
+    margin: 41px 0 35px 0;
+    background-color: #333;
+  }
+  header .topHeader .contentTopHeader .contactPhone {
+    cursor: pointer;
+    width: 120px;
+  }
+  header .topHeader .contentTopHeader .contactPhone img {
+    margin: 0 5px 0 0;
+  }
+  header .topHeader .contentTopHeader .contactPhone .text .first {
+    width: 70px;
+    font-size: 11px;
+  }
+  header .topHeader .contentTopHeader .contactPhone .text .second {
+    width: 85px;
+    font-size: 14px;
+    letter-spacing: 50;
+  }
+  header .topHeader .contentTopHeader .client {
+    width: 180px;
+  }
+  header .topHeader .contentTopHeader .client .user img:first-child {
+    width: 20px;
+  }
+  header .topHeader .contentTopHeader .client .heart img:first-child {
+    width: 25px;
+  }
+  header .topHeader .contentTopHeader .client .heart span {
+    margin: -35px 20px;
+    width: 20px;
+    height: 20px;
+  }
+  header .topHeader .contentTopHeader .client .shop img:first-child {
+    width: 20px;
+  }
+  header .topHeader .contentTopHeader .client .shop span {
+    margin: -35px 13px;
+    width: 20px;
+    height: 20px;
+  }
+  header .topHeader .contentTopHeader .client .shop img:last-child {
+    margin: 0 0 0 20px;
+  }
+  header .lineHeader {
+    width: 1200px;
+  }
+  header .lineHeader .line {
+    margin: 1px 64px 0 62px;
+    width: 1080px;
+  }
+  header .bottomHeader {
+    width: 1200px;
+    height: 70px;
+  }
+  header .bottomHeader .contentBottomHeader {
+    margin: 0px 64px 0 62px;
+  }
+}
+@media (max-width: 1200px) {
+  header .topHeader {
+    height: 100px;
+    width: 100vw;
+  }
+  header .topHeader .contentTopHeader {
+    margin: 0 40px;
+    height: 60px;
+  }
+  header .topHeader .contentTopHeader .searchBox {
+    width: 245px;
+    height: 35px;
+    margin: 20px 0;
+  }
+  header .topHeader .contentTopHeader .searchBox input {
+    width: 230px;
+    font-size: 15px;
+    outline: none;
+  }
+  header .topHeader .contentTopHeader .searchBox img {
+    width: 18px;
+  }
+  header .topHeader .contentTopHeader .transport {
+    width: 100px;
+  }
+  header .topHeader .contentTopHeader .transport img {
+    width: 40px;
+    margin: 0 8px 0 0;
+  }
+  header .topHeader .contentTopHeader .line {
+    height: 35px;
+  }
+  header .topHeader .contentTopHeader .contactPhone {
+    width: 100px;
+  }
+  header .topHeader .contentTopHeader .contactPhone img {
+    width: 25px;
+    margin: 0 8px 0 0;
+  }
+  header .topHeader .contentTopHeader .client {
+    width: 170px;
+  }
+  header .topHeader .contentTopHeader .client .user img:first-child {
+    width: 19px;
+  }
+  header .topHeader .contentTopHeader .client .heart img:first-child {
+    width: 22px;
+  }
+  header .topHeader .contentTopHeader .client .heart span {
+    margin: -30px 18px;
+    font-size: 11px;
+  }
+  header .topHeader .contentTopHeader .client .shop img:first-child {
+    width: 18px;
+  }
+  header .topHeader .contentTopHeader .client .shop span {
+    margin: -30px 13px;
+    font-size: 11px;
+  }
+  header .topHeader .contentTopHeader .client .shop img:last-child {
+    margin: 0 0 0 20px;
+  }
+  header .lineHeader {
+    width: 100vw;
+  }
+  header .lineHeader .line {
+    margin: 0 40px;
+    width: auto;
+  }
+  header .bottomHeader {
+    width: 100vw;
+    height: 60px;
+  }
+  header .bottomHeader .contentBottomHeader {
+    margin: 0px 40px;
+  }
+  header .bottomHeader .contentBottomHeader a {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1024px) {
+  header .topHeader {
+    height: 100px;
+    width: 100vw;
+  }
+  header .topHeader .contentTopHeader {
+    margin: 0 40px;
+    height: 60px;
+  }
+  header .topHeader .contentTopHeader .searchBox {
+    border: 1px white solid;
+    width: 200px;
+    height: 30px;
+    margin: 20px 0;
+    background-color: transparent;
+    border-radius: 5px;
+  }
+  header .topHeader .contentTopHeader .searchBox input {
+    color: white;
+    height: 25px;
+    width: 150px;
+    font-size: 13px;
+    outline: none;
+    background-color: transparent;
+  }
+  header .topHeader .contentTopHeader .searchBox img {
+    width: 18px;
+  }
+  header .topHeader .contentTopHeader .transport {
+    display: none;
+  }
+  header .topHeader .contentTopHeader .line {
+    display: none;
+  }
+  header .topHeader .contentTopHeader .contactPhone {
+    display: none;
+  }
+  header .topHeader .contentTopHeader .client {
+    width: 200px;
+    justify-content: space-around;
+  }
+  header .topHeader .contentTopHeader .client .user img:first-child {
+    width: 19px;
+  }
+  header .topHeader .contentTopHeader .client .heart img:first-child {
+    width: 22px;
+  }
+  header .topHeader .contentTopHeader .client .heart span {
+    margin: -30px 18px;
+    font-size: 11px;
+  }
+  header .topHeader .contentTopHeader .client .shop img:first-child {
+    width: 18px;
+  }
+  header .topHeader .contentTopHeader .client .shop span {
+    margin: -30px 13px;
+    font-size: 11px;
+  }
+  header .topHeader .contentTopHeader .client .shop img:last-child {
+    margin: 0 0 0 20px;
+  }
+  header .lineHeader {
+    width: 100vw;
+  }
+  header .lineHeader .line {
+    margin: 0 40px;
+    width: auto;
+  }
+  header .bottomHeader {
+    width: 100vw;
+    height: 50px;
+  }
+  header .bottomHeader .contentBottomHeader {
+    margin: 0px 40px;
+  }
+  header .bottomHeader .contentBottomHeader a {
+    font-size: 13px;
+  }
+}
+@media (max-width: 750px) {
+  header .topHeader {
+    height: 80px;
+  }
+  header .topHeader .contentTopHeader .logo img {
+    width: 110px;
+    height: 30px;
+  }
+  header .topHeader .contentTopHeader .searchBox {
+    width: 150px;
+    height: 25px;
+  }
+  header .topHeader .contentTopHeader .searchBox input {
+    height: 25px;
+    width: 100px;
+    font-size: 11px;
+  }
+  header .topHeader .contentTopHeader .searchBox img {
+    width: 15px;
+  }
+  header .topHeader .contentTopHeader .client .user img {
+    width: 10px;
+  }
+  header .topHeader .contentTopHeader .client .user img:first-child {
+    width: 17px;
+  }
+  header .topHeader .contentTopHeader .client .heart img:first-child {
+    width: 20px;
+  }
+  header .topHeader .contentTopHeader .client .heart span {
+    width: 17px;
+    height: 17px;
+    margin: -28px 16px;
+    font-size: 10px;
+  }
+  header .topHeader .contentTopHeader .client .shop img:first-child {
+    width: 17px;
+  }
+  header .topHeader .contentTopHeader .client .shop span {
+    width: 17px;
+    height: 17px;
+    font-size: 10px;
+  }
+  header .topHeader .contentTopHeader .client .shop img:last-child {
+    width: 10px;
+    margin: 0 0 0 15px;
+  }
+  header .bottomHeader {
+    max-height: 200px;
+  }
+  header .bottomHeader .contentBottomHeader {
+    display: none;
+  }
+  header .bottomHeader .contentBottomHeaderHamburger {
+    display: block;
+  }
+  header .bottomHeader .contentBottomHeaderHamburger .hamburgerSearch {
+    display: none;
+  }
+  header .bottomHeader .contentBottomHeaderHamburger .menu-button-container {
+    display: flex;
+  }
+  header .bottomHeader .contentBottomHeaderHamburger .menu {
+    position: absolute;
+    top: 0;
+    margin-top: 132px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+  }
+  header .bottomHeader .contentBottomHeaderHamburger #menu-toggle ~ .menu a {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  header .bottomHeader .contentBottomHeaderHamburger #menu-toggle:checked ~ .menu a {
+    font-size: 14px;
+    border: 1px solid #333;
+    height: 15px;
+    padding: 10px;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  header .bottomHeader .contentBottomHeaderHamburger .menu > a {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: white;
+    background-color: #1c1c1c;
+  }
+  header .bottomHeader .contentBottomHeaderHamburger .menu > a:not(:last-child) {
+    border-bottom: 1px solid #333;
+  }
+}
+@media (max-width: 580px) {
+  header .topHeader {
+    min-height: 80px;
+  }
+  header .topHeader .contentTopHeader {
+    margin: 40px;
+  }
+  header .topHeader .contentTopHeader .logo img {
+    width: 100px;
+    height: 30px;
+  }
+  header .topHeader .contentTopHeader .none {
+    display: none;
+  }
+  header .topHeader .contentTopHeader .client {
+    width: 150px;
+  }
+  header .topHeader .contentTopHeader .client .user img {
+    width: 10px;
+  }
+  header .topHeader .contentTopHeader .client .user img:first-child {
+    width: 17px;
+  }
+  header .topHeader .contentTopHeader .client .heart img:first-child {
+    width: 20px;
+  }
+  header .topHeader .contentTopHeader .client .heart span {
+    width: 17px;
+    height: 17px;
+    margin: -28px 16px;
+    font-size: 10px;
+  }
+  header .topHeader .contentTopHeader .client .shop img:first-child {
+    width: 17px;
+  }
+  header .topHeader .contentTopHeader .client .shop span {
+    width: 17px;
+    height: 17px;
+    font-size: 10px;
+  }
+  header .topHeader .contentTopHeader .client .shop img:last-child {
+    width: 10px;
+    margin: 0 0 0 15px;
+  }
+  header .bottomHeader .contentBottomHeader {
+    display: none;
+  }
+  header .bottomHeader .contentBottomHeaderHamburger {
+    display: block;
+  }
+  header .bottomHeader .contentBottomHeaderHamburger .text {
+    display: none;
+  }
+  header .bottomHeader .contentBottomHeaderHamburger .hamburgerSearch {
+    display: flex;
+    background-image: linear-gradient(to left, rgba(51, 51, 51, 0.3137254902), rgba(51, 51, 51, 0.3137254902));
+    border-radius: 0px;
+    width: 200px;
+    height: 50px;
+    margin: 0px;
+    background-color: transparent;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  header .bottomHeader .contentBottomHeaderHamburger .hamburgerSearch input {
+    margin-right: 5px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    margin: 0;
+    height: 30px;
+    width: 164px !important;
+    font-size: 15px;
+  }
+  header .bottomHeader .contentBottomHeaderHamburger .hamburgerSearch img {
+    cursor: pointer;
+    margin: 0 10px 0 0;
+    width: 20px;
+  }
+  header .bottomHeader .contentBottomHeaderHamburger .menu-button-container {
+    display: flex;
+  }
+  header .bottomHeader .contentBottomHeaderHamburger .menu {
+    position: absolute;
+    top: 0;
+    margin-top: 132px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+  }
+  header .bottomHeader .contentBottomHeaderHamburger #menu-toggle ~ .menu a {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  header .bottomHeader .contentBottomHeaderHamburger #menu-toggle:checked ~ .menu a {
+    font-size: 14px;
+    border: 1px solid #333;
+    height: 15px;
+    padding: 10px;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  header .bottomHeader .contentBottomHeaderHamburger .menu > a {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: white;
+    background-color: #1c1c1c;
+  }
+  header .bottomHeader .contentBottomHeaderHamburger .menu > a:not(:last-child) {
+    border-bottom: 1px solid #333;
+  }
+}/*# sourceMappingURL=header.css.map */

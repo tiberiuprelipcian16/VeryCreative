@@ -5,7 +5,7 @@
     font-family: 'Quicksand', sans-serif !important;
     font-weight: 600;
     display: flex;
-    background-color: #fefefe;
+    background-color: #fefefe !important;
 
     .hero {
         width: 1416px;
@@ -220,6 +220,8 @@
                     gap: 21px;
 
                     .item {
+                        position: relative;
+                        z-index: 2;
                         width: 242px;
                         height: 296px;
                         display: flex;
@@ -227,10 +229,11 @@
                         align-items: flex-end;
                         justify-content: center;
                         border-radius: 8px;
-                        
                         background-image: url("../../assets/item.png");
 
                         p {
+                            position: relative;
+                            z-index: 2;
                             margin: 0 0 36px 0;
                             color: white;
                             text-align: center;
@@ -238,25 +241,50 @@
                             max-width: 172px;
                         }
                     }
-/*
+
+                    .item::before{
+                        content: "";
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        background-image: linear-gradient(transparent, #1e115d);
+                        opacity: 0.8;
+                        z-index: 1;
+                        border-radius: 8px;
+                    }
+
                     .item1{
                         background-size: 242px 296px;
                         width: 242px;
                         height: 296px;
-                        background-image: url("../../assets/item1.svg");
+                        background-image: url("../../assets/item1.png");
                     }
                     .item2{
-                        background-image: url("../../assets/item2.svg");
+                        background-size: 242px 296px;
+                        width: 242px;
+                        height: 296px;
+                        background-image: url("../../assets/item2.png");
                     }
                     .item3{
-                        background-image: url("../../assets/item3.svg");
+                        background-size: 242px 296px;
+                        width: 242px;
+                        height: 296px;
+                        background-image: url("../../assets/item3.png");
                     }
                     .item4{
-                        background-image: url("../../assets/item4.svg");
+                        background-size: 242px 296px;
+                        width: 242px;
+                        height: 296px;
+                        background-image: url("../../assets/item4.png");
                     }
                     .item5{
-                        background-image: url("../../assets/item5.svg");
-                    }*/
+                        background-size: 242px 296px;
+                        width: 242px;
+                        height: 296px;
+                        background-image: url("../../assets/item5.png");
+                    }
                 }
             }
         }
@@ -674,6 +702,10 @@
 
     @media(max-width: 750px) {
 
+        .hero{
+            background-color: #242526;
+        }
+
         .hero {
             width: 100vw;
             height: auto;
@@ -708,6 +740,7 @@
                             height: auto;
 
                             p{
+                                margin-bottom: 15px;
                                 text-align: center;
                                 font-size: 25px;
                             }
@@ -786,7 +819,10 @@
                 margin-top: 5%;
 
                 .middleHeroContent {
+                    
+                    background-color: #d2d2d2;
                     padding: 15px 0;
+                    border: none;
                 }
             }
 
@@ -800,6 +836,7 @@
                     align-content: center;
 
                     p {
+                        color:#d2d2d2;
                         margin-top: 20px;
                         margin-bottom: 0;
                         font-size: 18px;
@@ -950,6 +987,7 @@
                         font-size: 22px;
                         margin: 0 20px;
                         padding: 20px;
+                        border-color: #d2d2d2;
                     }
 
                     .box {
@@ -967,6 +1005,7 @@
                             p{
                                 width: 85%;
                                 font-size: 15px;
+                                border-color: #d2d2d2;
                             }
                         }
                     }
@@ -989,6 +1028,8 @@
     }
 
     @media(max-width: 420px) {
+
+ 
 
         .hero {
 

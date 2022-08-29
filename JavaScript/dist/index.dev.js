@@ -52,15 +52,15 @@ function plusSlidesP1(nP1) {
   showSlidesP1(slideIndexP1 += nP1);
 
   if (nrp1 == 0) {
-    barP1[0].style.marginLeft = "-85%";
-  }
-
-  if (nrp1 == 1) {
     barP1[0].style.marginLeft = "0%";
   }
 
-  if (nrp1 == 2) {
+  if (nrp1 == 1) {
     barP1[0].style.marginLeft = "85%";
+  }
+
+  if (nrp1 == 2) {
+    barP1[0].style.marginLeft = "-85%";
   }
 }
 
@@ -98,15 +98,15 @@ function plusSlidesP2(nP2) {
   showSlidesP2(slideIndexP2 += nP2);
 
   if (nrp2 == 0) {
-    barp2[0].style.marginLeft = "-85%";
-  }
-
-  if (nrp2 == 1) {
     barp2[0].style.marginLeft = "0%";
   }
 
-  if (nrp2 == 2) {
+  if (nrp2 == 1) {
     barp2[0].style.marginLeft = "85%";
+  }
+
+  if (nrp2 == 2) {
+    barp2[0].style.marginLeft = "-85%";
   }
 }
 
@@ -144,15 +144,15 @@ function plusSlidesP3(nP3) {
   showSlidesP2(slideIndexP3 += nP3);
 
   if (nrp3 == 0) {
-    barp3[0].style.marginLeft = "-85%";
-  }
-
-  if (nrp3 == 1) {
     barp3[0].style.marginLeft = "0%";
   }
 
-  if (nrp3 == 2) {
+  if (nrp3 == 1) {
     barp3[0].style.marginLeft = "85%";
+  }
+
+  if (nrp3 == 2) {
+    barp3[0].style.marginLeft = "-85%";
   }
 }
 

@@ -1,0 +1,343 @@
+.boxImg .boxImgContent {
+  width: 1297px;
+  height: 451px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+.boxImg .boxImgContent .text {
+  width: 326px;
+  margin-left: 86px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: center;
+}
+.boxImg .boxImgContent .text p {
+  font-size: 36px;
+  color: white;
+}
+.boxImg .boxImgContent .text button {
+  background-color: transparent;
+  border: 2px solid white;
+  width: 163px;
+  height: 54px;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+}
+.boxImg .boxImgContent4 {
+  width: 1297px;
+  height: 383px;
+  background-image: linear-gradient(to left, #0085c6, #038dd0, #007CC1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+  border-radius: 8px;
+}
+.boxImg .boxImgContent4 .text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: center;
+}
+.boxImg .boxImgContent4 .text p {
+  width: 447px;
+  font-size: 16px;
+  color: white;
+}
+.boxImg .boxImgContent4 .text p:first-child {
+  font-size: 30px;
+  margin-bottom: 23px;
+}
+.boxImg .boxImgContent4 .text form {
+  margin-top: 38px;
+  width: 546px;
+  border-radius: 5px;
+  height: 81px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  align-content: center;
+}
+.boxImg .boxImgContent4 .text form .input {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  align-content: center;
+}
+.boxImg .boxImgContent4 .text form .input img {
+  margin-left: 23px;
+}
+.boxImg .boxImgContent4 .text form .input input {
+  border: none;
+  font-size: 16px;
+  outline: none;
+  margin-left: 15px;
+}
+.boxImg .boxImgContent4 .text form button {
+  border-radius: 5px;
+  width: 173px;
+  height: 60px;
+  margin-right: 16px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  background-color: #b52f51;
+}
+
+@media (max-width: 1461px) {
+  .boxImg .boxImgContent {
+    width: 1080px !important;
+    height: 400px !important;
+  }
+  .boxImg .boxImgContent .text {
+    width: 250px !important;
+    margin-left: 46px !important;
+  }
+  .boxImg .boxImgContent .text button {
+    width: 150px !important;
+    height: 45px !important;
+  }
+  .boxImg .boxImgContent img {
+    height: 400px !important;
+  }
+  .boxImg .boxImgContent4 {
+    width: auto !important;
+    margin: 0 !important;
+  }
+  .boxImg .boxImgContent4 .text form {
+    width: 400px;
+    height: 60px;
+  }
+  .boxImg .boxImgContent4 .text form .input img {
+    margin-left: 20px;
+  }
+  .boxImg .boxImgContent4 .text form button {
+    width: 150px;
+    height: 45px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 1200px) {
+  .boxImg .boxImgContent {
+    width: calc(100vw - 40px) !important;
+    height: 320px !important;
+  }
+  .boxImg .boxImgContent .text {
+    width: 250px !important;
+    margin-left: 46px !important;
+  }
+  .boxImg .boxImgContent .text button {
+    width: 150px !important;
+    height: 45px !important;
+  }
+  .boxImg .boxImgContent img {
+    height: 320px !important;
+  }
+  .boxImg .boxImgContent4 {
+    margin: 0 20px;
+    width: calc(100vw - 40px) !important;
+    height: 320px !important;
+  }
+  .boxImg .boxImgContent4 .img {
+    height: 320px;
+  }
+  .boxImg .boxImgContent4 .text form {
+    width: 320px;
+    height: 50px;
+  }
+  .boxImg .boxImgContent4 .text form .input input {
+    width: 150px;
+    font-size: 13px;
+  }
+  .boxImg .boxImgContent4 .text form .input img {
+    width: 20px;
+    margin-left: 20px;
+  }
+  .boxImg .boxImgContent4 .text form button {
+    width: 100px;
+    height: 35px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 1024px) {
+  .boxImg .boxImgContent {
+    width: calc(100vw - 40px) !important;
+    height: 280px !important;
+  }
+  .boxImg .boxImgContent .text {
+    width: 200px !important;
+    margin-left: 46px !important;
+  }
+  .boxImg .boxImgContent .text p {
+    font-size: 20px;
+  }
+  .boxImg .boxImgContent .text button {
+    width: 120px !important;
+    height: 45px !important;
+  }
+  .boxImg .boxImgContent img {
+    height: 280px !important;
+    width: 60%;
+  }
+  .boxImg .boxImgContent4 {
+    margin: 0 20px;
+    width: calc(100vw - 40px) !important;
+    height: 280px !important;
+  }
+  .boxImg .boxImgContent4 .img {
+    height: 280px;
+    width: 60%;
+  }
+  .boxImg .boxImgContent4 .text {
+    width: 80%;
+  }
+  .boxImg .boxImgContent4 .text p {
+    font-size: 18px !important;
+    width: 70%;
+    margin: 0;
+  }
+  .boxImg .boxImgContent4 .text form {
+    margin: 20px 0 0 0;
+    width: 280px;
+    height: 50px;
+  }
+  .boxImg .boxImgContent4 .text form .input input {
+    width: 100px;
+    font-size: 12px;
+  }
+  .boxImg .boxImgContent4 .text form .input img {
+    width: 18px;
+    margin-left: 12px;
+  }
+  .boxImg .boxImgContent4 .text form button {
+    width: 100px;
+    height: 35px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 750px) {
+  .boxImg .boxImgContent {
+    width: 100vw !important;
+    height: 260px !important;
+    border-radius: 0px;
+  }
+  .boxImg .boxImgContent .text {
+    width: 200px !important;
+    margin-left: 46px !important;
+  }
+  .boxImg .boxImgContent .text p {
+    font-size: 20px;
+  }
+  .boxImg .boxImgContent .text button {
+    width: 120px !important;
+    height: 45px !important;
+  }
+  .boxImg .boxImgContent img {
+    height: 260px !important;
+    width: 55%;
+  }
+  .boxImg .boxImgContent4 {
+    border-radius: 0px;
+    margin: 0;
+    width: 100vw !important;
+    height: 260px !important;
+  }
+  .boxImg .boxImgContent4 .img {
+    height: 260px;
+    width: 55%;
+  }
+  .boxImg .boxImgContent4 .text {
+    width: 100%;
+    align-content: center;
+    align-items: center;
+  }
+  .boxImg .boxImgContent4 .text p {
+    text-align: center;
+    font-size: 15px !important;
+    width: 90%;
+  }
+  .boxImg .boxImgContent4 .text form {
+    margin: 20px 0 0 0;
+    width: 250px;
+    height: 50px;
+  }
+  .boxImg .boxImgContent4 .text form .input {
+    margin: 0 0 0 10px;
+    width: 65%;
+  }
+  .boxImg .boxImgContent4 .text form .input input {
+    margin-left: 10px;
+    width: 80%;
+    font-size: 12px;
+  }
+  .boxImg .boxImgContent4 .text form .input img {
+    width: 17px;
+    margin-left: 0px;
+  }
+  .boxImg .boxImgContent4 .text form button {
+    margin: 0 10px 0 0;
+    width: 35%;
+    height: 30px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 580px) {
+  .boxImg .boxImgContent {
+    width: 100vw !important;
+    height: 260px !important;
+    border-radius: 0px;
+  }
+  .boxImg .boxImgContent .text {
+    width: 100% !important;
+    margin-left: 0px !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .boxImg .boxImgContent .text p {
+    width: 80%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .boxImg .boxImgContent .text button {
+    width: 120px !important;
+    height: 45px !important;
+  }
+  .boxImg .boxImgContent img {
+    display: none;
+  }
+  .boxImg .boxImgContent4 {
+    border-radius: 0px;
+    margin: 0;
+    width: 100vw !important;
+    height: 260px !important;
+  }
+  .boxImg .boxImgContent4 .img {
+    display: none;
+  }
+  .boxImg .boxImgContent4 .text {
+    width: 100%;
+    align-content: center;
+    align-items: center;
+  }
+  .boxImg .boxImgContent4 .text p {
+    font-size: 18px !important;
+  }
+  .boxImg .boxImgContent4 .text form {
+    width: 300px;
+  }
+}/*# sourceMappingURL=boxImg.css.map */

@@ -684,6 +684,8 @@ header {
 }
 
 @media(max-width: 750px) {
+
+    
     header {
 
         .topHeader {
@@ -907,7 +909,7 @@ header {
                 
                 .hamburgerSearch{
                     display: flex;
-                    background-image: linear-gradient(to left, #33333350, transparent);
+                    background-image: linear-gradient(to left, #33333350, #33333350);
                     border-radius: 0px;
                     width: 200px;
                     height: 50px;
@@ -917,6 +919,7 @@ header {
                     justify-content: space-between;
     
                     input {
+                        margin-right: 5px;
                         background-color: transparent;
                         outline: none;
                         border: none;

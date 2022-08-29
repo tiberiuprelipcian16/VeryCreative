@@ -410,6 +410,7 @@ footer {
 
             div {
                 justify-content: center !important;
+
                 img {
                     width: 30px;
                 }
@@ -418,10 +419,13 @@ footer {
                     gap: 5px !important;
 
                     p {
+                        color: #d2d2d2;
                         font-size: 12px !important;
                     }
 
                     a {
+                        color: #d2d2d2 !important;
+                        color: #d2d2d2;
                         font-size: 16px !important;
                     }
                 }
@@ -441,12 +445,14 @@ footer {
             width: 30vw !important;
 
             a {
+                color: #d2d2d2 !important;
                 font-size: 13px !important;
                 width: 100%;
                 text-align: center;
             }
 
             .title {
+                color: #d2d2d2 !important;
                 margin: 0 15px 0 0;
                 text-align: center !important;
                 font-size: 18px !important;
@@ -457,12 +463,14 @@ footer {
             .contactFooterContent {
 
                 p {
+                    color: #d2d2d2;
                     font-size: 13px !important;
                     max-width: 180px !important;
                 }
 
-                div{
-                    margin: 0;;
+                div {
+                    margin: 0;
+                    ;
                 }
             }
         }
@@ -471,6 +479,7 @@ footer {
     .footerFooter {
         margin: 40px !important;
         width: auto !important;
+        color: #d2d2d2;
         gap: 20px;
         flex-direction: column-reverse !important;
     }
@@ -478,7 +487,7 @@ footer {
 
 @media (max-width: 580px) {
 
-    footer{
+    footer {
         margin-top: 0px;
         border-top: 2px solid black;
     }
@@ -486,8 +495,8 @@ footer {
     .topFooter {
         flex-direction: column !important;
         gap: 20px;
-        
-        .logoFooter{
+
+        .logoFooter {
             margin-top: 20px;
         }
     }
@@ -499,18 +508,20 @@ footer {
         justify-content: space-evenly !important;
         gap: 8px !important;
 
-        div{
+        div {
             margin: 20px 0;
             align-items: center;
             width: 50vw !important;
 
             a {
+                color: #d2d2d2 !important;
                 font-size: 13px !important;
                 width: 100%;
                 text-align: center;
             }
 
             .title {
+                color: #d2d2d2 !important;
                 margin: 0 15px 0 0;
                 text-align: center !important;
                 font-size: 18px !important;
@@ -521,12 +532,14 @@ footer {
             .contactFooterContent {
 
                 p {
+                    color: #d2d2d2 !important;
                     font-size: 13px !important;
                     max-width: 180px !important;
                 }
 
-                div{
-                    margin: 0;;
+                div {
+                    margin: 0;
+                    ;
                 }
             }
         }
@@ -536,18 +549,36 @@ footer {
 
         margin: 30px 10px !important;
 
-        p{
+        p {
+            color: #d2d2d2 !important;
             margin-top: 20px;
             line-height: 20px;
             text-align: center;
         }
 
-        .social{
+        .social {
             width: 90% !important;
-            
-            .insta, .facebook, .twitter{ 
-                p{
+
+            span {
+                background-color: #d2d2d2 !important;
+            }
+
+            .insta,
+            .facebook,
+            .twitter {
+
+                img {
+                    width: 25px;
+                    height: 25px;
+                    background: #d2d2d2;
+                    border-radius: 50%;
+                padding: 3px;
+                }
+
+                p {
+                    color: #d2d2d2 !important;
                     margin: 0px;
+
                 }
             }
         }

@@ -1,0 +1,11 @@
+.section5 {
+  width: 1461px;
+  background-color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 75px;
+}
+.section5 .boxImg .boxImgContent {
+  background-image: linear-gradient(to right, #a5173b, #ac1338, #c7254b);
+}/*# sourceMappingURL=section5.css.map */

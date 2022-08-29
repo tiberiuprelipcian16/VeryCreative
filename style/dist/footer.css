@@ -347,9 +347,12 @@ footer .footerFooter .social span {
     gap: 5px !important;
   }
   .topFooter .contact div .text p {
+    color: #d2d2d2;
     font-size: 12px !important;
   }
   .topFooter .contact div .text a {
+    color: #d2d2d2 !important;
+    color: #d2d2d2;
     font-size: 16px !important;
   }
 
@@ -365,16 +368,19 @@ footer .footerFooter .social span {
     width: 30vw !important;
   }
   .middleFooter div a {
+    color: #d2d2d2 !important;
     font-size: 13px !important;
     width: 100%;
     text-align: center;
   }
   .middleFooter div .title {
+    color: #d2d2d2 !important;
     margin: 0 15px 0 0;
     text-align: center !important;
     font-size: 18px !important;
   }
   .middleFooter .contactFooter .contactFooterContent p {
+    color: #d2d2d2;
     font-size: 13px !important;
     max-width: 180px !important;
   }
@@ -385,6 +391,7 @@ footer .footerFooter .social span {
   .footerFooter {
     margin: 40px !important;
     width: auto !important;
+    color: #d2d2d2;
     gap: 20px;
     flex-direction: column-reverse !important;
   }
@@ -416,16 +423,19 @@ footer .footerFooter .social span {
     width: 50vw !important;
   }
   .middleFooter div a {
+    color: #d2d2d2 !important;
     font-size: 13px !important;
     width: 100%;
     text-align: center;
   }
   .middleFooter div .title {
+    color: #d2d2d2 !important;
     margin: 0 15px 0 0;
     text-align: center !important;
     font-size: 18px !important;
   }
   .middleFooter .contactFooter .contactFooterContent p {
+    color: #d2d2d2 !important;
     font-size: 13px !important;
     max-width: 180px !important;
   }
@@ -437,6 +447,7 @@ footer .footerFooter .social span {
     margin: 30px 10px !important;
   }
   .footerFooter p {
+    color: #d2d2d2 !important;
     margin-top: 20px;
     line-height: 20px;
     text-align: center;
@@ -444,7 +455,22 @@ footer .footerFooter .social span {
   .footerFooter .social {
     width: 90% !important;
   }
-  .footerFooter .social .insta p, .footerFooter .social .facebook p, .footerFooter .social .twitter p {
+  .footerFooter .social span {
+    background-color: #d2d2d2 !important;
+  }
+  .footerFooter .social .insta img,
+.footerFooter .social .facebook img,
+.footerFooter .social .twitter img {
+    width: 25px;
+    height: 25px;
+    background: #d2d2d2;
+    border-radius: 50%;
+    padding: 3px;
+  }
+  .footerFooter .social .insta p,
+.footerFooter .social .facebook p,
+.footerFooter .social .twitter p {
+    color: #d2d2d2 !important;
     margin: 0px;
   }
 }

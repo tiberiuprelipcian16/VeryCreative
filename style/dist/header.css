@@ -654,7 +654,7 @@ header .bottomHeader .contentBottomHeaderHamburger #menu-toggle:checked + .menu-
   }
   header .bottomHeader .contentBottomHeaderHamburger .hamburgerSearch {
     display: flex;
-    background-image: linear-gradient(to left, #33333350, transparent);
+    background-image: linear-gradient(to left, #33333350, #33333350);
     border-radius: 0px;
     width: 200px;
     height: 50px;
@@ -664,6 +664,7 @@ header .bottomHeader .contentBottomHeaderHamburger #menu-toggle:checked + .menu-
     justify-content: space-between;
   }
   header .bottomHeader .contentBottomHeaderHamburger .hamburgerSearch input {
+    margin-right: 5px;
     background-color: transparent;
     outline: none;
     border: none;

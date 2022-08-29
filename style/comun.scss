@@ -463,14 +463,27 @@
 
 @media(max-width: 750px) {
 
+.section3, .section4, .section5, .section6, footer{
+    background-color: #242526 !important;
+    p{
+        color: #d2d2d2;
+        border: #d2d2d2;
+        a{
+            color: #d2d2d2;
+        }
+    }
 
+
+}
     .sectionProduct {
+        background-color: #242526;
         width: 100vw;
 
-        p {
+        p {color: #d2d2d2;
             text-align: center;
             font-size: 22px;
             margin: 50px 0;
+            border-color: #d2d2d2 !important;
         }
 
         .newProducts {
@@ -485,6 +498,7 @@
             gap: 60px;
 
             .product {
+                background-color: #d2d2d2 !important;
                 width: 30vw;
                 height: 305px;
                 display: flex;
@@ -495,6 +509,7 @@
                 
 
                 .image {
+                    border: none;
                     width: calc(30vw - 1.1px);
                     height: 170px;
 
@@ -509,6 +524,7 @@
                         }
 
                         span:last-child{
+                            background-color: #d2d2d2;
                             height: 24px;
                             width: 40px;
                         }
@@ -533,23 +549,25 @@
                 height: 2px;
                 display: flex;
                 justify-content: center;
-                background-color: #00000057;
+                background-color: #d2d2d2;
                 align-items: center;
 
                 span {
                     width: 150px;
                     height: 4px;
-                    background-color: #282828;
+                    background-color: #656161;
                 }
             }
 
             .btn{
-
+                border-color: #d2d2d2;
                 justify-content: space-around;
 
                 span{
+                    border-color: #d2d2d2;
                     width: 30px;
                     height: 30px;
+                    color: #d2d2d2;
                 }
             }
 
@@ -576,7 +594,7 @@
         .newProducts {
             grid-template-columns: 40vw;
 
-            gap: 60px;
+            gap: 20px;
 
             .product {
                 

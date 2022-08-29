@@ -208,9 +208,26 @@
 }
 
 @media(max-width: 750px) {
+
+
+    body{
+        background-color:  #242526 !important;;
+    }
     .section2 {
+        background-color: #242526 !important;
+
+        .chat {
+
+            .content {
+                background-color: #242526 !important;
+                color: white;
+                border: #d2d2d2 2px solid !important;
+            }
+        }
+    
 
         .grid-container {
+            background-color: #242526;
             width: 100% !important;
             grid-template-columns: 30vw 30vw !important;
             gap: 15px !important;
@@ -220,8 +237,10 @@
                 width: 30vw !important;
                 height: 130px !important;
                 font-size: 15px;
+                background-color: #f8f8f825 !important;
 
                 p {
+                    color: #d2d2d2 !important;
                     font-size: 15px !important;
                 }
             }
